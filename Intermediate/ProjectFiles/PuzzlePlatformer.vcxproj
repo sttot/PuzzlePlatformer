@@ -415,6 +415,8 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\PuzzlePlatformer\MovingPlatform.cpp" />
+		<ClInclude Include="..\..\Source\PuzzlePlatformer\MovingPlatform.h" />
 		<None Include="..\..\Source\PuzzlePlatformer\PuzzlePlatformer.Build.cs" />
 		<ClCompile Include="..\..\Source\PuzzlePlatformer\PuzzlePlatformer.cpp" />
 		<ClInclude Include="..\..\Source\PuzzlePlatformer\PuzzlePlatformer.h" />
