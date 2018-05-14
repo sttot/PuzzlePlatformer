@@ -34,5 +34,7 @@ public:
 
 protected:
 
-	virtual void Tick ( float fDeltaTime ) override;
+	virtual void BeginPlay	() override;
+
+	virtual void Tick		( float fDeltaTime ) override;
 };

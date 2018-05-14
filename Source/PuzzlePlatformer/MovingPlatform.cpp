@@ -11,6 +11,19 @@ AMovingPlatform::AMovingPlatform()
 	SetMobility( EComponentMobility::Movable );
 }
 
+void AMovingPlatform::BeginPlay()
+{
+	Super::BeginPlay();
+
+	// Replicate the behaviour of the platform to all clients connected to the server
+	// Only enable this if the code is being executed from the server
+	if ( HasAuthority() )
+	{
+		SetReplicates( true );
+		SetReplicateMovement( true ); // Replicate platform movement to clients
+	}
+}
+
 void AMovingPlatform::Tick( float fDeltaTime )
 {
 	Super::Tick( fDeltaTime );
