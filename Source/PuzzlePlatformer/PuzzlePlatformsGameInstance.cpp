@@ -28,6 +28,16 @@ void UPuzzlePlatformsGameInstance::Host()
 	if ( !ensure( pcEngine != nullptr ) ) return;
 
 	pcEngine->AddOnScreenDebugMessage( 0, 2, FColor::Green, TEXT( "Hosting" ) );
+
+	UWorld* pcWorld = GetWorld();
+
+	// Ensure there is a world currently running
+	if ( !ensure( pcWorld != nullptr ) ) return;
+
+	// Make the host travel to the map provided as an argument
+	// Add ?listen to the end so that this host listen for connections from other clients
+	// Ref: https://docs.unrealengine.com/en-us/Programming/Basics/CommandLineArguments under the topic of URL Parameters
+	pcWorld->ServerTravel( "/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen" );
 }
 
 // exec command that prints debug text to screen in game
@@ -40,4 +50,12 @@ void UPuzzlePlatformsGameInstance::Join( const FString& rsAddress )
 	if ( !ensure( pcEngine != nullptr ) ) return;
 
 	pcEngine->AddOnScreenDebugMessage( 0, 5, FColor::Green, FString::Printf( TEXT( "Hosting %s" ), *rsAddress ) );
+
+	APlayerController* pcPlayerController = GetFirstLocalPlayerController();
+
+	// Ensure there is at least one PlayerController
+	if ( !ensure( pcPlayerController != nullptr ) ) return;
+	
+	// Connect to the server at the address of rsAddress
+	pcPlayerController->ClientTravel( rsAddress, ETravelType::TRAVEL_Absolute );
 }
