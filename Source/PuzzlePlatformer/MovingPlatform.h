@@ -22,7 +22,7 @@ public:
 
 	// Default platform moving speed - Can edit in editor
 	UPROPERTY( EditAnywhere )
-	float fSpeed = 20.f;
+	float		fSpeed					= 20.f;
 
 	////////////////////////////////////////////////////////////////////////
 	// Can specify a target location to reach in editor
@@ -31,18 +31,33 @@ public:
 	// N.B. Any position is relative to centre of cube and not world space
 	////////////////////////////////////////////////////////////////////////
 	UPROPERTY( EditAnywhere, Meta = ( MakeEditWidget = true ) )
-	FVector m_sTargetLocation;
+	FVector		m_sTargetLocation;
+
+	////////////////////////////////////////////////
+
+	// Functions that in/decrement iActiveTriggers for platform moving capabilities
+	void		AddActiveTrigger		();
+	void		RemoveActiveTrigger		();
+
+	////////////////////////////////////////////////
 
 protected:
 
-	virtual void BeginPlay	() override;
+	virtual void BeginPlay				() override;
 
-	virtual void Tick		( float fDeltaTime ) override;
+	virtual void Tick					( float fDeltaTime ) override;
+
+	////////////////////////////////////////////////
 
 private:
 
 	// Set desired starting and target positions 
-	FVector m_sGlobalTargetLocation;
+	FVector		m_sGlobalTargetLocation;
 
-	FVector m_sGlobalStartLocation;
+	FVector		m_sGlobalStartLocation;
+
+	////////////////////////////////////////////////
+
+	UPROPERTY( EditAnywhere )
+	int			iActiveTriggers			= 1;
 };

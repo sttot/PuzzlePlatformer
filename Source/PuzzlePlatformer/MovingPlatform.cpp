@@ -11,6 +11,8 @@ AMovingPlatform::AMovingPlatform()
 	SetMobility( EComponentMobility::Movable );
 }
 
+////////////////////////////////////////////////
+
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
@@ -19,7 +21,7 @@ void AMovingPlatform::BeginPlay()
 	// Only enable this if the code is being executed from the server
 	if ( HasAuthority() )
 	{
-		SetReplicates( true );
+		SetReplicates		( true );
 		SetReplicateMovement( true ); // Replicate platform movement to clients
 	}
 
@@ -28,35 +30,60 @@ void AMovingPlatform::BeginPlay()
 	m_sGlobalTargetLocation = GetTransform().TransformPosition( m_sTargetLocation );
 }
 
+////////////////////////////////////////////////
+
 void AMovingPlatform::Tick( float fDeltaTime )
 {
 	Super::Tick( fDeltaTime );
 
-	// If the code is being run on the server side
-	if ( HasAuthority() )
+	// Only active movement logic if it should be active
+	if ( iActiveTriggers > 0 )
 	{
-		// First obtain the current location of the platform in world space
-		FVector m_sLocation = GetActorLocation();
-
-		float fJourneyLength	= ( m_sGlobalTargetLocation - m_sGlobalStartLocation ).Size();
-		float fJourneyTravelled = ( m_sLocation - m_sGlobalStartLocation ).Size();
-
-		// Use .GetSafeNormal as this will safely create a new vector that will not lose accuracy 
-		// Use Global Location vectors to ensure that the platform does not glitch out 
-		FVector m_sDirection = ( m_sGlobalTargetLocation - m_sGlobalStartLocation ).GetSafeNormal();
-
-		// If direction vector is almost 0, turn the platform direction around
-		if (fJourneyTravelled >= fJourneyLength )
+		// If the code is being run on the server side
+		if ( HasAuthority() )
 		{
-			FVector m_sSwap = m_sGlobalStartLocation;
-			m_sGlobalStartLocation = m_sGlobalTargetLocation;
-			m_sGlobalTargetLocation = m_sSwap;
+			// First obtain the current location of the platform in world space
+			FVector m_sLocation = GetActorLocation();
+
+			float fJourneyLength	= ( m_sGlobalTargetLocation - m_sGlobalStartLocation ).Size();
+			float fJourneyTravelled = ( m_sLocation - m_sGlobalStartLocation ).Size();
+
+			// Use .GetSafeNormal as this will safely create a new vector that will not lose accuracy 
+			// Use Global Location vectors to ensure that the platform does not glitch out 
+			FVector m_sDirection = ( m_sGlobalTargetLocation - m_sGlobalStartLocation ).GetSafeNormal();
+
+			// If direction vector is almost 0, turn the platform direction around
+			if ( fJourneyTravelled >= fJourneyLength )
+			{
+				FVector m_sSwap			= m_sGlobalStartLocation;
+				m_sGlobalStartLocation	= m_sGlobalTargetLocation;
+				m_sGlobalTargetLocation = m_sSwap;
+			}
+
+			// Check direction of platform movement
+			// Update position by fSpeed every tick 
+			m_sLocation += fSpeed * fDeltaTime * m_sDirection;
+
+			SetActorLocation( m_sLocation );
 		}
+	}
+}
 
-		// Check direction of platform movement
-		// Update position by fSpeed every tick 
-		m_sLocation += fSpeed * fDeltaTime * m_sDirection;
+////////////////////////////////////////////////
 
-		SetActorLocation( m_sLocation );
+// Post increment iActiveTriggers 
+void AMovingPlatform::AddActiveTrigger()
+{
+	iActiveTriggers++;
+}
+
+////////////////////////////////////////////////
+
+// Post Decrement iActiveTriggers
+void AMovingPlatform::RemoveActiveTrigger()
+{
+	if ( iActiveTriggers > 0 )
+	{
+		iActiveTriggers--;
 	}
 }

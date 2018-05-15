@@ -3,6 +3,8 @@
 #include "PlatformTrigger.h"
 #include "Components/BoxComponent.h"
 
+// Local Includes
+#include "MovingPlatform.h"
 
 // Sets default values
 APlatformTrigger::APlatformTrigger()
@@ -24,12 +26,16 @@ APlatformTrigger::APlatformTrigger()
 	m_pcTriggerVolume->OnComponentEndOverlap.AddDynamic( this, &APlatformTrigger::OnOverlapEnd );
 }
 
+////////////////////////////////////////////////
+
 // Called when the game starts or when spawned
 void APlatformTrigger::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
+
+////////////////////////////////////////////////
 
 // Called every frame
 void APlatformTrigger::Tick( float DeltaTime )
@@ -38,12 +44,24 @@ void APlatformTrigger::Tick( float DeltaTime )
 
 }
 
+////////////////////////////////////////////////
+
 void APlatformTrigger::OnOverlapBegin( UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult )
 {
+	for ( AMovingPlatform* pPlatform : m_acPlatformsToTrigger )
+	{
+		pPlatform->AddActiveTrigger();
+	}
 	UE_LOG( LogTemp, Warning, TEXT( "Activated" ) );
 }
 
+////////////////////////////////////////////////
+
 void APlatformTrigger::OnOverlapEnd( UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex )
 {
+	for ( AMovingPlatform* pPlatform : m_acPlatformsToTrigger )
+	{
+		pPlatform->RemoveActiveTrigger();
+	}
 	UE_LOG( LogTemp, Warning, TEXT( "Deactivated" ) );
 }

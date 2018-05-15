@@ -27,11 +27,21 @@ private:
 
 	UPROPERTY( VisibleAnywhere )
 	class UBoxComponent* m_pcTriggerVolume;
+
+	// Array to store all platforms that need to be able to move 
+	UPROPERTY( EditAnywhere )
+	TArray<class AMovingPlatform*> m_acPlatformsToTrigger;
 	
+	////////////////////////////////////////////////
+
+	////////////////////////
+	// Overlap Functions 
+	////////////////////////
 	UFUNCTION()
 	void OnOverlapBegin	( UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult );
 	
 	UFUNCTION()
 	void OnOverlapEnd	( UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex );
 
+	////////////////////////////////////////////////
 };
