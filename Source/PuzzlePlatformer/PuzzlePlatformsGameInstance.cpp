@@ -49,7 +49,7 @@ void UPuzzlePlatformsGameInstance::Join( const FString& rsAddress )
 	// Ensure there is an Engine running	
 	if ( !ensure( pcEngine != nullptr ) ) return;
 
-	pcEngine->AddOnScreenDebugMessage( 0, 5, FColor::Green, FString::Printf( TEXT( "Hosting %s" ), *rsAddress ) );
+	pcEngine->AddOnScreenDebugMessage( 0, 5, FColor::Green, FString::Printf( TEXT( "Joining %s" ), *rsAddress ) );
 
 	APlayerController* pcPlayerController = GetFirstLocalPlayerController();
 
