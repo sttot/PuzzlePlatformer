@@ -1,4 +1,4 @@
-﻿Log file open, 05/15/18 13:36:20
+﻿Log file open, 05/15/18 15:20:10
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PuzzlePlatformer
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1081870806) SRandInit(-1081870806).
+LogInit: Display: RandInit(590814501) SRandInit(590814501).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.175479
+LogStats: Stats thread started at 0.186566
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Binaries/Win64/UE4Editor-PuzzlePlatformer-9893.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Binaries/Win64/UE4Editor-PuzzlePlatformer-4235.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -197,489 +197,160 @@ LogInit: Base directory: D:/UT2016/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.15-12.36.21:794][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.15-12.36.21:794][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.15-12.36.21:806][  0]LogInit: Computer: WINDOWS8V1
-[2018.05.15-12.36.21:806][  0]LogInit: User: Aaron
-[2018.05.15-12.36.21:806][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.15-12.36.21:806][  0]LogInit: High frequency timer resolution =2.338341 MHz
-[2018.05.15-12.36.21:807][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.15-12.36.21:807][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.15-12.36.21:807][  0]LogMemory: Process Physical Memory: 272.14 MB used, 272.14 MB peak
-[2018.05.15-12.36.21:807][  0]LogMemory: Process Virtual Memory: 270.21 MB used, 270.21 MB peak
-[2018.05.15-12.36.21:807][  0]LogMemory: Physical Memory: 9042.29 MB used,  7229.96 MB free, 16272.25 MB total
-[2018.05.15-12.36.21:807][  0]LogMemory: Virtual Memory: 624.24 MB used,  7229.96 MB free, 134217728.00 MB total
-[2018.05.15-12.36.21:934][  0]LogInit: Using OS detected language (en-GB).
-[2018.05.15-12.36.21:934][  0]LogInit: Using OS detected locale (en-GB).
-[2018.05.15-12.36.21:943][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.05.15-12.36.22:409][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.15-12.36.22:826][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.15-12.36.22:865][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
-[2018.05.15-12.36.22:865][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.15-12.36.22:887][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
-[2018.05.15-12.36.22:887][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2018.05.15-12.36.22:889][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.15-12.36.22:889][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.15-12.36.22:889][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.15-12.36.22:896][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.15-12.36.22:896][  0]LogD3D11RHI:     GPU DeviceId: 0x11e0 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.15-12.36.22:896][  0]LogWindows: EnumDisplayDevices:
-[2018.05.15-12.36.22:896][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.05.15-12.36.22:897][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.15-12.36.22:897][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.15-12.36.22:897][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.15-12.36.22:897][  0]LogWindows:    4. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.15-12.36.22:897][  0]LogWindows:    5. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.15-12.36.22:897][  0]LogWindows:    6. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.15-12.36.22:897][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.05.15-12.36.22:897][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770M
-[2018.05.15-12.36.22:897][  0]LogD3D11RHI:   Driver Version: 375.95 (internal:21.21.13.7595, unified:375.95)
-[2018.05.15-12.36.22:897][  0]LogD3D11RHI:      Driver Date: 11-16-2016
-[2018.05.15-12.36.22:897][  0]LogRHI: Texture pool is 2083 MB (70% of 2976 MB)
-[2018.05.15-12.36.22:917][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.15-12.36.22:936][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.15-12.36.22:936][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Intermediate/Shaders/WorkingDirectory/11164/).
-[2018.05.15-12.36.22:937][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron/AppData/Local/Temp/UnrealShaderWorkingDir/6BB7D9AD4B3F184E6882028201500FC3/'.
-[2018.05.15-12.36.22:937][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.15-12.36.24:420][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.15-12.36.24:461][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.15-12.36.24:508][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.15-12.36.24:552][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.15-12.36.24:594][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.15-12.36.24:642][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.15-12.36.24:685][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.15-12.36.24:731][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.15-12.36.24:766][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.15-12.36.24:807][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.15-12.36.24:847][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.15-12.36.24:889][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.15-12.36.24:933][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.15-12.36.24:974][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.15-12.36.25:059][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.15-12.36.25:059][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.15-12.36.25:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.15-12.36.25:139][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.15-12.36.25:223][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.15-12.36.25:248][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.15-12.36.25:294][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.15-12.36.25:341][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.15-12.36.25:390][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.15-12.36.25:432][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.15-12.36.25:432][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.15-12.36.25:790][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.15-12.36.25:887][  0]LogDerivedDataCache: Loaded boot cache 0.10s 79MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.15-12.36.25:888][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.15-12.36.25:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.15-12.36.25:888][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.15-12.36.25:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.15-12.36.25:888][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.15-12.36.25:907][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.15-12.36.25:920][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.15-12.36.25:931][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.15-12.36.25:931][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.15-12.36.25:933][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.15-12.36.25:933][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.15-12.36.26:390][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.15-12.36.26:685][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.15-12.36.26:725][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.15-12.36.26:725][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.15-12.36.26:725][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.15-12.36.26:725][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.15-12.36.26:725][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.15-12.36.26:757][  0]LogNetVersion: PuzzlePlatformer , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2521452977)
-[2018.05.15-12.36.26:923][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2018.05.15-12.36.27:439][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.062941 seconds
-[2018.05.15-12.36.27:445][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.15-12.36.27:445][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.05.15-12.36.27:445][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.15-12.36.27:486][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.15-12.36.30:519][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.15-12.36.30:554][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.15-12.36.31:333][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.15-12.36.31:770][  0]SourceControl: Source control is disabled
-[2018.05.15-12.36.31:770][  0]SourceControl: Source control is disabled
-[2018.05.15-12.36.31:820][  0]SourceControl: Source control is disabled
-[2018.05.15-12.36.31:865][  0]SourceControl: Source control is disabled
-[2018.05.15-12.36.32:570][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.15-12.36.32:810][  0]LogOcInput: OculusInput pre-init called
-[2018.05.15-12.36.33:067][  0]LogEngine: Initializing Engine...
-[2018.05.15-12.36.33:073][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.05.15-12.36.33:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.15-12.36.33:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.15-12.36.33:462][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.15-12.36.33:471][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.15-12.36.33:477][  0]LogInit: FAudioDevice initialized.
-[2018.05.15-12.36.33:967][  0]LogDerivedDataCache: Saved boot cache 0.49s 79MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.15-12.36.33:984][  0]LogInit: Texture streaming: Enabled
-[2018.05.15-12.36.34:052][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.15-12.36.34:151][  0]LogInit: Transaction tracking system initialized
-[2018.05.15-12.36.34:402][  0]BlueprintLog: New page: Editor Load
-[2018.05.15-12.36.35:147][  0]LocalizationService: Localization service is disabled
-[2018.05.15-12.36.35:771][  0]LogConsoleResponse: Display: 
-[2018.05.15-12.36.35:965][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.15-12.36.35:965][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.15-12.36.35:966][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.15-12.36.36:661][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/' took 0.01s
-[2018.05.15-12.36.36:962][  0]SourceControl: Source control is disabled
-[2018.05.15-12.36.36:962][  0]Cmd: MAP LOAD FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.15-12.36.36:963][  0]LightingResults: New page: Lighting Build
-[2018.05.15-12.36.36:995][  0]MapCheck: New page: Map Check
-[2018.05.15-12.36.36:995][  0]LightingResults: New page: Lighting Build
-[2018.05.15-12.36.37:192][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.15-12.36.37:202][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.15-12.36.37:216][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.15-12.36.37:296][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.263ms to complete.
-[2018.05.15-12.36.37:297][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.333
-[2018.05.15-12.36.37:437][  0]LogCollectionManager: Loaded 0 collections in 0.000944 seconds
-[2018.05.15-12.36.37:517][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Collections/' took 0.01s
-[2018.05.15-12.36.37:517][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Developers/Aaron/Collections/' took 0.01s
-[2018.05.15-12.36.37:517][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Collections/' took 0.01s
-[2018.05.15-12.36.37:518][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.15-12.36.37:529][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2367 classes and 521 folders.
-[2018.05.15-12.36.37:579][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.05.15-12.36.37:634][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.05.15-12.36.37:670][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.05.15-12.36.37:704][  0]LogSlate: Took 0.000803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.15-12.36.37:708][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.15-12.36.37:717][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.15-12.36.37:718][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.05.15-12.36.37:875][  0]LogRenderer: Reallocating scene render targets to support 1208x596 Format 10 NumSamples 1 (Frame:1).
-[2018.05.15-12.36.38:127][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.05.15-12.36.38:128][  0]LogLoad: (Engine Initialization) Total time: 19.13 seconds
-[2018.05.15-12.36.38:128][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.15-12.36.38:128][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.15-12.36.38:488][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.15-12.36.38:808][  1]LogAssetRegistry: Asset discovery search completed in 11.9079 seconds
-[2018.05.15-12.36.38:810][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.15-12.36.38:811][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000278 seconds (updated 0 objects)
-[2018.05.15-12.37.35:113][376]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{ee3e8ad2-22f2-4407-ba7a-f2320cffdf6d} was removed. Shutting down audio device.
-[2018.05.15-12.37.35:113][376]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.15-12.37.37:867][384]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.15-13.00.07:106][485]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.15-13.00.07:109][485]Candidate modules for hot reload:
-[2018.05.15-13.00.07:109][485]  PuzzlePlatformer
-[2018.05.15-13.00.07:109][485]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 1673 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.15-13.00.07:112][485]Warning: Starting HotReload took  0.0s.
-[2018.05.15-13.00.41:764][558]CompilerResultsLog: New page: Compilation - 15 May 2018 15:00:41
-[2018.05.15-13.00.41:764][558]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.15-13.00.41:764][558]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.15-13.00.41:764][558]CompilerResultsLog: Parsing headers for PuzzlePlatformerEditor
-[2018.05.15-13.00.41:764][558]CompilerResultsLog:   Running UnrealHeaderTool "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\PuzzlePlatformer.uproject" "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\PuzzlePlatformerEditor\Development\PuzzlePlatformerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.05.15-13.00.41:765][558]CompilerResultsLog: Reflection code generated for PuzzlePlatformerEditor in 12.5101125 seconds
-[2018.05.15-13.00.41:765][558]CompilerResultsLog: Performing 7 actions (4 in parallel)
-[2018.05.15-13.00.41:765][558]CompilerResultsLog: MovingPlatform.gen.cpp
-[2018.05.15-13.00.41:765][558]CompilerResultsLog: PlatformTrigger.cpp
-[2018.05.15-13.00.41:765][558]CompilerResultsLog: MovingPlatform.cpp
-[2018.05.15-13.00.41:766][558]CompilerResultsLog: PlatformTrigger.gen.cpp
-[2018.05.15-13.00.41:766][558]CompilerResultsLog: PuzzlePlatformer.init.gen.cpp
-[2018.05.15-13.00.41:766][558]CompilerResultsLog: [6/7] Link UE4Editor-PuzzlePlatformer-1673.dll
-[2018.05.15-13.00.41:766][558]CompilerResultsLog: [7/7] Link UE4Editor-PuzzlePlatformer-1673.lib
-[2018.05.15-13.00.41:766][558]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1673.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1673.exp
-[2018.05.15-13.00.41:767][558]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1673.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1673.suppressed.exp
-[2018.05.15-13.00.41:767][558]CompilerResultsLog: Total build time: 33.92 seconds (Local executor: 20.65 seconds)
-[2018.05.15-13.00.41:767][558]LogMainFrame: MainFrame: Module compiling took 34.661 seconds
-[2018.05.15-13.00.41:825][558]LogClass: Could not find existing class MovingPlatform in package /Script/PuzzlePlatformer for HotReload, assuming new class
-[2018.05.15-13.00.41:825][558]LogClass: Could not find existing class PlatformTrigger in package /Script/PuzzlePlatformer for HotReload, assuming new class
-[2018.05.15-13.00.41:825][558]LogClass: Function OnOverlapBegin is new.
-[2018.05.15-13.00.41:825][558]LogClass: Function OnOverlapEnd is new.
-[2018.05.15-13.00.41:831][558]LogHotReload: Re-instancing MovingPlatform after hot-reload.
-[2018.05.15-13.00.42:098][558]LogHotReload: Re-instancing PlatformTrigger after hot-reload.
-[2018.05.15-13.00.42:338][558]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0006 seconds. Added 4 classes and 2 folders.
-[2018.05.15-13.00.42:339][558]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.05.15-13.00.42:425][558]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2369 classes and 525 folders.
-[2018.05.15-13.00.42:426][558]Display: HotReload took 35.3s.
-[2018.05.15-13.01.15:585][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
-[2018.05.15-13.01.15:694][229]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ramp_StaticMesh)
-[2018.05.15-13.01.17:238][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.01.17:239][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.15-13.01.17:240][311]PIE: New page: PIE session: ThirdPersonExampleMap (15 May 2018 15:01:17)
-[2018.05.15-13.01.17:240][311]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.05.15-13.01.17:278][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038010s)
-[2018.05.15-13.01.17:280][311]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.15-13.01.17:280][311]LogPlayLevel: PIE: World Init took: (0.002097s)
-[2018.05.15-13.01.17:281][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041053s)
-[2018.05.15-13.01.17:298][311]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.15-13.01.17:302][311]LogInit: FAudioDevice initialized.
-[2018.05.15-13.01.17:350][311]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.15-13.01.17:353][311]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.05.15-14.01.17
-[2018.05.15-13.01.17:353][311]LogWorld: Bringing up level for play took: 0.001707
-[2018.05.15-13.01.17:415][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.05.15-13.01.17:418][311]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.236
-[2018.05.15-13.01.17:418][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.01.18:713][385]LogTemp: Warning: Activated
-[2018.05.15-13.01.19:547][435]LogTemp: Warning: Deactivated
-[2018.05.15-13.01.19:864][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.01.19:898][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.02.02:431][661]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform (MovingPlatform7)
-[2018.05.15-13.02.07:119][851]LogSlate: Took 0.000653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.15-13.02.07:290][851]LogSavePackage: Save=119.37ms
-[2018.05.15-13.02.07:290][851]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/ThirdPersonExampleMapC64BD7064C232807C24E5ABED1EE1AFE.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2018.05.15-13.02.07:293][851]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2018.05.15-13.02.07:535][851]LogSavePackage: Save=215.25ms
-[2018.05.15-13.02.07:535][851]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/ThirdPersonExampleMap_BuiltDataFA889A81412544DA121DB2B01D6003DC.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.05.15-13.02.07:537][851]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.05.15-13.02.07:974][877]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.15-13.02.07:978][877]Candidate modules for hot reload:
-[2018.05.15-13.02.07:978][877]  PuzzlePlatformer
-[2018.05.15-13.02.07:978][877]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 9520 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.15-13.02.07:981][877]Warning: Starting HotReload took  0.0s.
-[2018.05.15-13.02.09:390][948]CompilerResultsLog: New page: Compilation - 15 May 2018 15:02:09
-[2018.05.15-13.02.09:390][948]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.15-13.02.09:391][948]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.15-13.02.09:391][948]CompilerResultsLog: Target is up to date
-[2018.05.15-13.02.09:391][948]CompilerResultsLog: Total build time: 0.69 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.05.15-13.02.09:391][948]LogMainFrame: MainFrame: Module compiling took 1.417 seconds
-[2018.05.15-13.02.09:422][948]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2369 classes and 525 folders.
-[2018.05.15-13.02.09:422][948]Display: HotReload took  1.5s.
-[2018.05.15-13.02.19:329][387]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.15-13.02.19:346][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.02.19:347][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.15-13.02.19:347][387]PIE: New page: PIE session: ThirdPersonExampleMap (15 May 2018 15:02:19)
-[2018.05.15-13.02.19:347][387]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.05.15-13.02.19:375][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027366s)
-[2018.05.15-13.02.19:376][387]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.15-13.02.19:376][387]LogPlayLevel: PIE: World Init took: (0.001343s)
-[2018.05.15-13.02.19:377][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029668s)
-[2018.05.15-13.02.19:399][387]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.15-13.02.19:405][387]LogInit: FAudioDevice initialized.
-[2018.05.15-13.02.19:438][387]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.15-13.02.19:440][387]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.05.15-14.02.19
-[2018.05.15-13.02.19:441][387]LogWorld: Bringing up level for play took: 0.001628
-[2018.05.15-13.02.19:444][387]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.262
-[2018.05.15-13.02.19:444][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.02.21:542][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.02.21:580][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.02.51:062][904]LogEditorViewport: Clicking on Actor (LMB): BP_MyPlatformTrigger_C (BP_MyPlatformTrigger)
-[2018.05.15-13.03.05:693][769]LogSlate: Took 0.000706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.15-13.03.22:748][309]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.15-13.03.22:751][309]Candidate modules for hot reload:
-[2018.05.15-13.03.22:751][309]  PuzzlePlatformer
-[2018.05.15-13.03.22:751][309]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 8190 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.15-13.03.22:753][309]Warning: Starting HotReload took  0.0s.
-[2018.05.15-13.03.24:371][394]CompilerResultsLog: New page: Compilation - 15 May 2018 15:03:24
-[2018.05.15-13.03.24:371][394]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.15-13.03.24:371][394]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.15-13.03.24:371][394]CompilerResultsLog: Target is up to date
-[2018.05.15-13.03.24:371][394]CompilerResultsLog: Total build time: 0.95 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.05.15-13.03.24:372][394]LogMainFrame: MainFrame: Module compiling took 1.624 seconds
-[2018.05.15-13.03.24:396][394]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2369 classes and 525 folders.
-[2018.05.15-13.03.24:396][394]Display: HotReload took  1.7s.
-[2018.05.15-13.03.39:581][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
-[2018.05.15-13.03.39:781][926]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ramp_StaticMesh)
-[2018.05.15-13.03.40:914][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.03.40:915][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.15-13.03.40:915][986]PIE: New page: PIE session: ThirdPersonExampleMap (15 May 2018 15:03:40)
-[2018.05.15-13.03.40:915][986]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.05.15-13.03.40:940][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023994s)
-[2018.05.15-13.03.40:942][986]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.15-13.03.40:942][986]LogPlayLevel: PIE: World Init took: (0.002323s)
-[2018.05.15-13.03.40:943][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027108s)
-[2018.05.15-13.03.40:960][986]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.15-13.03.40:963][986]LogInit: FAudioDevice initialized.
-[2018.05.15-13.03.40:998][986]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.15-13.03.41:000][986]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.05.15-14.03.41
-[2018.05.15-13.03.41:001][986]LogWorld: Bringing up level for play took: 0.001682
-[2018.05.15-13.03.41:003][986]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.179
-[2018.05.15-13.03.41:003][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.03.41:872][ 36]LogTemp: Warning: Activated
-[2018.05.15-13.03.42:956][101]LogTemp: Warning: Deactivated
-[2018.05.15-13.03.43:638][142]LogTemp: Warning: Activated
-[2018.05.15-13.03.45:422][249]LogTemp: Warning: Deactivated
-[2018.05.15-13.03.45:772][270]LogTemp: Warning: Activated
-[2018.05.15-13.03.48:338][424]LogTemp: Warning: Deactivated
-[2018.05.15-13.03.48:939][460]LogTemp: Warning: Activated
-[2018.05.15-13.03.53:239][718]LogTemp: Warning: Deactivated
-[2018.05.15-13.03.53:757][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.03.53:795][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.04.09:094][998]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.05.15-13.04.09:745][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.05.15-13.04.11:026][109]LogEditorViewport: Clicking on Actor (LMB): BP_MyPlatformTrigger_C (BP_MyPlatformTrigger2)
-[2018.05.15-13.04.18:737][563]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.05.15-13.07.27:371][196]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.15-13.07.30:579][370]LogSlate: Took 0.000691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.15-13.07.47:976][225]Running D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" -game -rocket -progress
-[2018.05.15-13.07.48:680][225]Discovering modules, targets and source code for project...
-[2018.05.15-13.07.51:390][225]LogSlate: Took 0.000683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.15-13.07.52:412][225]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.15-13.07.52:415][225]Candidate modules for hot reload:
-[2018.05.15-13.07.52:415][225]  PuzzlePlatformer
-[2018.05.15-13.07.52:415][225]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 9445 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.15-13.08.16:692][225]CompilerResultsLog: New page: Compilation - 15 May 2018 15:08:16
-[2018.05.15-13.08.16:692][225]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.15-13.08.16:693][225]CompilerResultsLog: Creating makefile for hot reloading PuzzlePlatformer (new files with reflected types)
-[2018.05.15-13.08.16:693][225]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.15-13.08.16:693][225]CompilerResultsLog: Parsing headers for PuzzlePlatformerEditor
-[2018.05.15-13.08.16:693][225]CompilerResultsLog:   Running UnrealHeaderTool "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\PuzzlePlatformer.uproject" "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\PuzzlePlatformerEditor\Development\PuzzlePlatformerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.05.15-13.08.16:694][225]CompilerResultsLog: Reflection code generated for PuzzlePlatformerEditor in 11.3990615 seconds
-[2018.05.15-13.08.16:694][225]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2018.05.15-13.08.16:695][225]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
-[2018.05.15-13.08.16:695][225]CompilerResultsLog: PuzzlePlatformsGameInstance.gen.cpp
-[2018.05.15-13.08.16:695][225]CompilerResultsLog: PuzzlePlatformer.init.gen.cpp
-[2018.05.15-13.08.16:695][225]CompilerResultsLog: [4/5] Link UE4Editor-PuzzlePlatformer-9445.dll
-[2018.05.15-13.08.16:695][225]CompilerResultsLog: [5/5] Link UE4Editor-PuzzlePlatformer-9445.lib
-[2018.05.15-13.08.16:695][225]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-9445.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-9445.exp
-[2018.05.15-13.08.16:696][225]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-9445.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-9445.suppressed.exp
-[2018.05.15-13.08.16:697][225]CompilerResultsLog: Total build time: 23.65 seconds (Local executor: 3.32 seconds)
-[2018.05.15-13.08.16:697][225]LogMainFrame: MainFrame: Module compiling took 24.285 seconds
-[2018.05.15-13.08.16:772][225]LogClass: Could not find existing class PuzzlePlatformsGameInstance in package /Script/PuzzlePlatformer for HotReload, assuming new class
-[2018.05.15-13.08.16:777][225]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0009 seconds. Added 5 classes and 2 folders.
-[2018.05.15-13.08.16:779][225]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2018.05.15-13.08.16:829][225]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2370 classes and 525 folders.
-[2018.05.15-13.08.16:830][225]Display: HotReload took 24.4s.
-[2018.05.15-13.08.16:831][225]Warning: HotReload operation took 24.4s.
-[2018.05.15-13.08.16:868][225]LogHotReload: New module detected: UE4Editor-PuzzlePlatformer-9445.dll
-[2018.05.15-13.08.16:899][226]LogHotReload: Starting Hot-Reload from IDE
-[2018.05.15-13.08.16:991][226]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0009 seconds. Added 5 classes and 2 folders.
-[2018.05.15-13.08.16:995][226]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.05.15-13.08.17:033][226]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2370 classes and 525 folders.
-[2018.05.15-13.08.17:039][226]Display: HotReload took  0.1s.
-[2018.05.15-13.08.27:379][250]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.08.33:995][251]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.08.34:016][252]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.09.39:841][442]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.01:892][689]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.02:538][691]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.02:870][692]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.03:369][693]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.03:537][694]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.03:871][695]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.04:204][696]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.04:537][697]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.04:870][698]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.05:204][699]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.05:537][700]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.05:870][701]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.06:203][702]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.06:535][703]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.06:536][703]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.06:868][704]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.07:431][704]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.07:449][705]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.05.15-13.11.07:586][705]LogVSAccessor: Warning: Couldn't get Visual Studio COM object
-[2018.05.15-13.11.07:587][705]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.15-13.11.07:591][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:592][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:592][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:592][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:593][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:593][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:593][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:593][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:594][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:594][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:594][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:594][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:595][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:595][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:595][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:595][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:595][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:596][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:596][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:596][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:596][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:596][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:597][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:597][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:597][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:597][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:597][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:597][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:598][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:598][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:598][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:598][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:598][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:599][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:599][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:599][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:599][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:600][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:600][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:600][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:600][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:601][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:601][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:601][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:602][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:604][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:606][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:615][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:615][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:615][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:616][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:616][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:616][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:617][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.11.07:626][705]LogVSAccessor: Warning: Couldn't access module table
-[2018.05.15-13.12.35:897][111]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.15-13.12.36:007][113]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PuzzlePlatformer
-[2018.05.15-13.12.36:007][113]LogTemp: CWD: D:\UT2016\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.15-13.12.36:007][113]LogTemp: Initial Dir: D:\UT2016\UE_4.18
-[2018.05.15-13.12.36:007][113]LogTemp: Env CWD: D:\UT2016\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.15-13.12.36:011][113]LogTemp: BranchPath = WINDOWS8V1/D/UT2016/UE_4.18/Engine/Binaries --- GameBranchPath = WINDOWS8V1/D/UT2016/UE_4.18/Engine/Binaries
-[2018.05.15-13.12.36:057][114]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Aaron\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.15-13.12.39:782][202]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.05.15-13.13.46:562][722]LogSlate: Took 0.001299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.15-13.13.55:420][749]LogSavePackage: Save=131.28ms
-[2018.05.15-13.13.55:421][749]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/ThirdPersonExampleMap_Auto1D6D7CD204604E1BB066E08B254DB65A5.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2018.05.15-13.13.55:422][749]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2018.05.15-13.13.55:424][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.159
-[2018.05.15-13.13.55:425][749]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
-[2018.05.15-13.13.57:563][808]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.15-13.13.57:686][811]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PuzzlePlatformer
-[2018.05.15-13.13.57:686][811]LogTemp: CWD: D:\UT2016\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.15-13.13.57:686][811]LogTemp: Initial Dir: D:\UT2016\UE_4.18
-[2018.05.15-13.13.57:686][811]LogTemp: Env CWD: D:\UT2016\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.15-13.13.57:694][811]LogTemp: BranchPath = WINDOWS8V1/D/UT2016/UE_4.18/Engine/Binaries --- GameBranchPath = WINDOWS8V1/D/UT2016/UE_4.18/Engine/Binaries
-[2018.05.15-13.13.57:732][812]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Aaron\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.15-13.14.00:455][939]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.05.15-13.22.05:499][720]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.15-13.22.05:511][720]Candidate modules for hot reload:
-[2018.05.15-13.22.05:511][720]  PuzzlePlatformer
-[2018.05.15-13.22.05:511][720]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 7681 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.15-13.22.05:513][720]Warning: Starting HotReload took  0.0s.
-[2018.05.15-13.22.56:596][ 86]CompilerResultsLog: New page: Compilation - 15 May 2018 15:22:56
-[2018.05.15-13.22.56:596][ 86]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.15-13.22.56:596][ 86]CompilerResultsLog: Creating makefile for hot reloading PuzzlePlatformer (ini files are newer than UBTMakefile)
-[2018.05.15-13.22.56:596][ 86]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.15-13.22.56:597][ 86]CompilerResultsLog: Parsing headers for PuzzlePlatformerEditor
-[2018.05.15-13.22.56:597][ 86]CompilerResultsLog:   Running UnrealHeaderTool "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\PuzzlePlatformer.uproject" "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\PuzzlePlatformerEditor\Development\PuzzlePlatformerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.05.15-13.22.56:597][ 86]CompilerResultsLog: Reflection code generated for PuzzlePlatformerEditor in 11.8460951 seconds
-[2018.05.15-13.22.56:597][ 86]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2018.05.15-13.22.56:597][ 86]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
-[2018.05.15-13.22.56:597][ 86]CompilerResultsLog: PuzzlePlatformer.init.gen.cpp
-[2018.05.15-13.22.56:598][ 86]CompilerResultsLog: PuzzlePlatformsGameInstance.gen.cpp
-[2018.05.15-13.22.56:598][ 86]CompilerResultsLog: [4/5] Link UE4Editor-PuzzlePlatformer-7681.dll
-[2018.05.15-13.22.56:598][ 86]CompilerResultsLog: [5/5] Link UE4Editor-PuzzlePlatformer-7681.lib
-[2018.05.15-13.22.56:598][ 86]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-7681.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-7681.exp
-[2018.05.15-13.22.56:598][ 86]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-7681.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-7681.suppressed.exp
-[2018.05.15-13.22.56:599][ 86]CompilerResultsLog: Total build time: 50.17 seconds (Local executor: 2.42 seconds)
-[2018.05.15-13.22.56:599][ 86]LogMainFrame: MainFrame: Module compiling took 51.100 seconds
-[2018.05.15-13.22.56:666][ 86]LogClass: Could not find existing class PuzzlePlatformsGameInstance in package /Script/PuzzlePlatformer for HotReload, assuming new class
-[2018.05.15-13.22.56:667][ 86]LogTemp: Warning: Game Instance Constructor
-[2018.05.15-13.22.56:672][ 86]LogHotReload: Re-instancing PuzzlePlatformsGameInstance after hot-reload.
-[2018.05.15-13.22.56:725][ 86]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0006 seconds. Added 5 classes and 2 folders.
-[2018.05.15-13.22.56:727][ 86]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2018.05.15-13.22.56:776][ 86]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2370 classes and 525 folders.
-[2018.05.15-13.22.56:776][ 86]Display: HotReload took 51.3s.
-[2018.05.15-13.23.15:662][973]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.15-13.23.15:677][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.23.15:677][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.15-13.23.15:678][973]PIE: New page: PIE session: ThirdPersonExampleMap (15 May 2018 15:23:15)
-[2018.05.15-13.23.15:678][973]LogTemp: Warning: Game Instance Constructor
-[2018.05.15-13.23.15:678][973]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.05.15-13.23.15:702][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024159s)
-[2018.05.15-13.23.15:703][973]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.15-13.23.15:703][973]LogPlayLevel: PIE: World Init took: (0.001053s)
-[2018.05.15-13.23.15:703][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025629s)
-[2018.05.15-13.23.15:719][973]LogTemp: Warning: Game Instance Init
-[2018.05.15-13.23.15:722][973]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.15-13.23.15:726][973]LogInit: FAudioDevice initialized.
-[2018.05.15-13.23.15:761][973]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.15-13.23.15:763][973]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.05.15-14.23.15
-[2018.05.15-13.23.15:763][973]LogWorld: Bringing up level for play took: 0.001640
-[2018.05.15-13.23.15:765][973]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.583
-[2018.05.15-13.23.15:766][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.23.19:949][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.15-13.23.19:983][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.15-14.20.12:439][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-14.20.12:439][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.15-14.20.12:456][  0]LogInit: Computer: WINDOWS8V1
+[2018.05.15-14.20.12:456][  0]LogInit: User: Aaron
+[2018.05.15-14.20.12:456][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.15-14.20.12:456][  0]LogInit: High frequency timer resolution =2.338341 MHz
+[2018.05.15-14.20.12:456][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.15-14.20.12:456][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.15-14.20.12:456][  0]LogMemory: Process Physical Memory: 272.32 MB used, 272.32 MB peak
+[2018.05.15-14.20.12:456][  0]LogMemory: Process Virtual Memory: 270.26 MB used, 270.26 MB peak
+[2018.05.15-14.20.12:456][  0]LogMemory: Physical Memory: 10035.43 MB used,  6236.82 MB free, 16272.25 MB total
+[2018.05.15-14.20.12:456][  0]LogMemory: Virtual Memory: 624.24 MB used,  6236.82 MB free, 134217728.00 MB total
+[2018.05.15-14.20.12:609][  0]LogInit: Using OS detected language (en-GB).
+[2018.05.15-14.20.12:609][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.15-14.20.12:618][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.05.15-14.20.13:167][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.15-14.20.14:637][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.15-14.20.14:682][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
+[2018.05.15-14.20.14:682][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.15-14.20.14:711][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
+[2018.05.15-14.20.14:711][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.05.15-14.20.14:714][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.15-14.20.14:714][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.15-14.20.14:714][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.15-14.20.14:723][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.15-14.20.14:723][  0]LogD3D11RHI:     GPU DeviceId: 0x11e0 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.15-14.20.14:723][  0]LogWindows: EnumDisplayDevices:
+[2018.05.15-14.20.14:723][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.05.15-14.20.14:723][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.15-14.20.14:723][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.15-14.20.14:723][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.15-14.20.14:724][  0]LogWindows:    4. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.15-14.20.14:724][  0]LogWindows:    5. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.15-14.20.14:724][  0]LogWindows:    6. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.15-14.20.14:724][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.05.15-14.20.14:724][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770M
+[2018.05.15-14.20.14:724][  0]LogD3D11RHI:   Driver Version: 375.95 (internal:21.21.13.7595, unified:375.95)
+[2018.05.15-14.20.14:724][  0]LogD3D11RHI:      Driver Date: 11-16-2016
+[2018.05.15-14.20.14:724][  0]LogRHI: Texture pool is 2083 MB (70% of 2976 MB)
+[2018.05.15-14.20.14:751][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.15-14.20.14:771][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.15-14.20.14:772][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Intermediate/Shaders/WorkingDirectory/8432/).
+[2018.05.15-14.20.14:772][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron/AppData/Local/Temp/UnrealShaderWorkingDir/F520716A473914B9B3BD3AB14A80FBA0/'.
+[2018.05.15-14.20.14:772][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.15-14.20.16:267][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.15-14.20.16:326][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.15-14.20.16:386][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.15-14.20.16:437][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.15-14.20.16:490][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.15-14.20.16:549][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.15-14.20.16:602][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.15-14.20.16:662][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.15-14.20.16:710][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.15-14.20.16:768][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.15-14.20.16:823][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.15-14.20.16:889][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.15-14.20.16:938][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.15-14.20.16:989][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.15-14.20.17:098][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.15-14.20.17:098][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.15-14.20.17:154][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.15-14.20.17:191][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.15-14.20.17:292][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.15-14.20.17:335][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.15-14.20.17:392][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.15-14.20.17:468][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.15-14.20.17:581][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.15-14.20.17:639][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.15-14.20.17:639][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.15-14.20.18:072][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.15-14.20.18:220][  0]LogDerivedDataCache: Loaded boot cache 0.15s 80MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.15-14.20.18:220][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.15-14.20.18:221][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.15-14.20.18:221][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.15-14.20.18:221][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.15-14.20.18:221][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.15-14.20.18:243][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.15-14.20.18:256][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.15-14.20.18:270][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.15-14.20.18:271][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.15-14.20.18:273][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-14.20.18:273][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-14.20.18:836][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-14.20.19:187][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.15-14.20.19:224][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.15-14.20.19:224][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.15-14.20.19:224][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.15-14.20.19:224][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.15-14.20.19:224][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.15-14.20.19:258][  0]LogNetVersion: PuzzlePlatformer , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2521452977)
+[2018.05.15-14.20.19:458][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2018.05.15-14.20.20:093][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.071594 seconds
+[2018.05.15-14.20.20:101][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.15-14.20.20:101][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.05.15-14.20.20:101][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.15-14.20.20:146][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.15-14.20.43:038][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.15-14.20.43:081][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.15-14.20.43:706][  0]LogTemp: Warning: Game Instance Constructor
+[2018.05.15-14.20.44:209][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.15-14.20.44:633][  0]SourceControl: Source control is disabled
+[2018.05.15-14.20.44:633][  0]SourceControl: Source control is disabled
+[2018.05.15-14.20.44:683][  0]SourceControl: Source control is disabled
+[2018.05.15-14.20.44:760][  0]SourceControl: Source control is disabled
+[2018.05.15-14.20.45:756][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.15-14.20.46:009][  0]LogOcInput: OculusInput pre-init called
+[2018.05.15-14.20.46:383][  0]LogEngine: Initializing Engine...
+[2018.05.15-14.20.46:453][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.05.15-14.20.46:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.15-14.20.46:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.15-14.20.46:926][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.15-14.20.46:937][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.15-14.20.46:944][  0]LogInit: FAudioDevice initialized.
+[2018.05.15-14.20.48:874][  0]LogDerivedDataCache: Saved boot cache 1.93s 80MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.15-14.20.48:908][  0]LogInit: Texture streaming: Enabled
+[2018.05.15-14.20.49:108][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.15-14.20.49:109][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9A4819EB-43A4-4690-FD4F-45800DFA278C}
+[2018.05.15-14.20.49:234][  0]LogInit: Transaction tracking system initialized
+[2018.05.15-14.20.49:738][  0]BlueprintLog: New page: Editor Load
+[2018.05.15-14.20.51:264][  0]LocalizationService: Localization service is disabled
+[2018.05.15-14.20.52:505][  0]LogConsoleResponse: Display: 
+[2018.05.15-14.20.53:429][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/' took 0.01s
+[2018.05.15-14.20.53:429][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.15-14.20.53:429][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.15-14.20.53:429][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.15-14.20.55:276][  0]SourceControl: Source control is disabled
+[2018.05.15-14.20.55:308][  0]Cmd: MAP LOAD FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.15-14.20.55:325][  0]LightingResults: New page: Lighting Build
+[2018.05.15-14.20.55:396][  0]MapCheck: New page: Map Check
+[2018.05.15-14.20.55:396][  0]LightingResults: New page: Lighting Build
+[2018.05.15-14.20.55:671][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.15-14.20.55:693][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.15-14.20.55:705][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.15-14.20.55:790][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.038ms to complete.
+[2018.05.15-14.20.55:790][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.483
+[2018.05.15-14.20.56:329][  0]LogCollectionManager: Loaded 0 collections in 0.001087 seconds
+[2018.05.15-14.20.56:470][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Collections/' took 0.01s
+[2018.05.15-14.20.56:470][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Developers/Aaron/Collections/' took 0.01s
+[2018.05.15-14.20.56:470][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Collections/' took 0.01s
+[2018.05.15-14.20.56:470][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.15-14.20.56:479][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2368 classes and 521 folders.
+[2018.05.15-14.20.56:604][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.15-14.20.57:649][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.15-14.20.57:756][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.05.15-14.20.57:961][  0]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.15-14.20.57:967][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.15-14.20.57:992][  0]LogSlate: Took 0.016250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.15-14.20.58:009][  0]LogSlate: Took 0.009385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.05.15-14.20.58:227][  0]LogRenderer: Reallocating scene render targets to support 1208x596 Format 10 NumSamples 1 (Frame:1).
+[2018.05.15-14.20.58:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.15-14.20.58:685][  0]LogLoad: (Engine Initialization) Total time: 49.32 seconds
+[2018.05.15-14.20.58:685][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.15-14.20.58:685][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.15-14.20.59:085][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.15-14.20.59:380][  1]LogAssetRegistry: Asset discovery search completed in 39.9466 seconds
+[2018.05.15-14.20.59:383][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.15-14.20.59:384][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000256 seconds (updated 0 objects)
