@@ -3,20 +3,78 @@
 #include "PuzzlePlatformsGameInstance.h"
 
 #include "Engine/Engine.h"
+#include "UObject/ConstructorHelpers.h"
 
+#include "Runtime/UMG/Public/Blueprint/UserWidget.h"
+#include "PlatformTrigger.h"
+
+////////////////////////////////////////////////////////////////////////////////////////////////
 // Will always be called even if the game is not being played
 // Output log will generate this every time there is a compile of code
+////////////////////////////////////////////////////////////////////////////////////////////////
 UPuzzlePlatformsGameInstance::UPuzzlePlatformsGameInstance( const FObjectInitializer& ObjectInitializer )
 {
 	UE_LOG( LogTemp, Warning, TEXT( "Game Instance Constructor" ) );
+
+	static ConstructorHelpers::FClassFinder<UUserWidget> MenuBPClass( TEXT( "/Game/MenuSystems/WBP_MainMenu" ) );
+
+	if ( !ensure( MenuBPClass.Class != nullptr ) ) return;
+
+	MenuClass = MenuBPClass.Class;
+
+	static ConstructorHelpers::FClassFinder<APlatformTrigger> PlatformTriggerBPClass( TEXT( "/Game/PuzzlePlatormer/BP_MyPlatformTrigger" ) );
+	
+	if ( !ensure( PlatformTriggerBPClass.Class != nullptr ) ) return;
+	
+	UE_LOG( LogTemp, Warning, TEXT( "Found class %s"), *PlatformTriggerBPClass.Class->GetName() );
 }
 
+////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////
 // Only occurs when "hitting" play and will occur for each individual player
 // Log Output will call this for the same amount of times as the number of players that currently exist
+////////////////////////////////////////////////////////////////////////////////////////////////
 void UPuzzlePlatformsGameInstance::Init()
 {
 	UE_LOG( LogTemp, Warning, TEXT( "Game Instance Init" ) );
+
+	UE_LOG( LogTemp, Warning, TEXT( "Found class %s" ), *MenuClass->GetName() );
 }
+
+////////////////////////////////////////////////
+
+// Initialise the menu widget from BP Class
+void UPuzzlePlatformsGameInstance::LoadMenu()
+{
+	if ( !ensure( MenuClass != nullptr ) ) return;
+
+	UUserWidget* m_pcMenu = CreateWidget<UUserWidget>( this, MenuClass );
+
+	// Add userwidget to viewport
+	m_pcMenu->AddToViewport();
+
+	APlayerController* pcPlayerController = GetFirstLocalPlayerController();
+
+	// Ensure there is at least one PlayerController
+	if ( !ensure( pcPlayerController != nullptr ) ) return;
+
+	// Set input to take in only UI functionality
+	// Ref: http://api.unrealengine.com/INT/API/Runtime/Engine/GameFramework/FInputModeUIOnly/index.html
+	// TakeWidget Ref: http://api.unrealengine.com/INT/API/Runtime/UMG/Components/UWidget/TakeWidget/index.html
+	// MouseLockMode Ref: http://api.unrealengine.com/INT/API/Runtime/Engine/Engine/EMouseLockMode/index.html
+	FInputModeUIOnly InputModeData;
+	InputModeData.SetWidgetToFocus( m_pcMenu->TakeWidget() );
+	InputModeData.SetLockMouseToViewportBehavior( EMouseLockMode::LockOnCapture );
+
+	// Once set, initialise input mode to player
+	pcPlayerController->SetInputMode( InputModeData );
+
+	// Enable mouse cursor to be shown
+	pcPlayerController->bShowMouseCursor = true;
+}
+
+////////////////////////////////////////////////
 
 // exec command that prints debug text to screen in game
 void UPuzzlePlatformsGameInstance::Host()
@@ -39,6 +97,8 @@ void UPuzzlePlatformsGameInstance::Host()
 	// Ref: https://docs.unrealengine.com/en-us/Programming/Basics/CommandLineArguments under the topic of URL Parameters
 	pcWorld->ServerTravel( "/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen" );
 }
+
+////////////////////////////////////////////////
 
 // exec command that prints debug text to screen in game
 void UPuzzlePlatformsGameInstance::Join( const FString& rsAddress )
