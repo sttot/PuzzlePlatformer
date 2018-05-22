@@ -50,30 +50,9 @@ void UPuzzlePlatformsGameInstance::LoadMenu()
 {
 	if ( !ensure( MenuClass != nullptr ) ) return;
 
-	UMainMenuSource* m_pcMenu = CreateWidget<UMainMenuSource>( this, MenuClass );
+	m_pcMenu = CreateWidget<UMainMenuSource>( this, MenuClass );
 
-	// Add userwidget to viewport
-	m_pcMenu->AddToViewport();
-
-	APlayerController* pcPlayerController = GetFirstLocalPlayerController();
-
-	// Ensure there is at least one PlayerController
-	if ( !ensure( pcPlayerController != nullptr ) ) return;
-
-	// Set input to take in only UI functionality
-	// Ref: http://api.unrealengine.com/INT/API/Runtime/Engine/GameFramework/FInputModeUIOnly/index.html
-	// TakeWidget Ref: http://api.unrealengine.com/INT/API/Runtime/UMG/Components/UWidget/TakeWidget/index.html
-	// MouseLockMode Ref: http://api.unrealengine.com/INT/API/Runtime/Engine/Engine/EMouseLockMode/index.html
-	FInputModeUIOnly InputModeData;
-	InputModeData.SetWidgetToFocus( m_pcMenu->TakeWidget() );
-	InputModeData.SetLockMouseToViewportBehavior( EMouseLockMode::DoNotLock );
-
-	// Once set, initialise input mode to player
-	pcPlayerController->SetInputMode( InputModeData );
-
-	// Enable mouse cursor to be shown
-	pcPlayerController->bShowMouseCursor = true;
-
+	m_pcMenu->Setup();
 	m_pcMenu->SetMenuInterface( this );
 }
 
@@ -82,6 +61,11 @@ void UPuzzlePlatformsGameInstance::LoadMenu()
 // exec command that prints debug text to screen in game
 void UPuzzlePlatformsGameInstance::Host()
 {
+	if ( m_pcMenu != nullptr )
+	{
+		m_pcMenu->Teardown();
+	}
+
 	// Pointer to the running engine class 
 	UEngine* pcEngine = GetEngine();
 
@@ -106,6 +90,11 @@ void UPuzzlePlatformsGameInstance::Host()
 // exec command that prints debug text to screen in game
 void UPuzzlePlatformsGameInstance::Join( const FString& rsAddress )
 {
+	if ( m_pcMenu != nullptr )
+	{
+		m_pcMenu->Teardown();
+	}
+
 	// Pointer to the running engine class 
 	UEngine* pcEngine = GetEngine();
 

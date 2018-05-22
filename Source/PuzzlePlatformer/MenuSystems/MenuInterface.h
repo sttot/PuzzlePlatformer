@@ -24,4 +24,6 @@ public:
 	
 	virtual void Host() = 0;
 
+	virtual void Join( const FString& rsAddress ) = 0;
+
 };

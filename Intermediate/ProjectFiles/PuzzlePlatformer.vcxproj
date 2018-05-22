@@ -428,6 +428,8 @@
 		<ClInclude Include="..\..\Source\PuzzlePlatformer\PuzzlePlatformerGameMode.h" />
 		<ClCompile Include="..\..\Source\PuzzlePlatformer\PuzzlePlatformsGameInstance.cpp" />
 		<ClInclude Include="..\..\Source\PuzzlePlatformer\PuzzlePlatformsGameInstance.h" />
+		<ClCompile Include="..\..\Source\PuzzlePlatformer\MenuSystems\InGameMenu.cpp" />
+		<ClInclude Include="..\..\Source\PuzzlePlatformer\MenuSystems\InGameMenu.h" />
 		<ClCompile Include="..\..\Source\PuzzlePlatformer\MenuSystems\MainMenuSource.cpp" />
 		<ClInclude Include="..\..\Source\PuzzlePlatformer\MenuSystems\MainMenuSource.h" />
 		<ClCompile Include="..\..\Source\PuzzlePlatformer\MenuSystems\MenuInterface.cpp" />

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PuzzlePlatformer.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{684CE86C-2490-4686-952E-6F1F0F4645C5}</UniqueIdentifier>
+			<UniqueIdentifier>{4D38744D-59EF-4D55-A7D2-D6C4D140CE96}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PuzzlePlatformer.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{678EA91F-E341-4143-91B6-184F7907D5A5}</UniqueIdentifier>
+			<UniqueIdentifier>{444D36BC-8B72-40C1-AE67-F9D639C30667}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PuzzlePlatformer">
-			<UniqueIdentifier>{1984BC75-135A-4343-9611-64D4082529F6}</UniqueIdentifier>
+			<UniqueIdentifier>{4AEF6BA5-F258-43C3-9D64-F98BE28492C2}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PuzzlePlatformer\MovingPlatform.cpp">
 			<Filter>Source\PuzzlePlatformer</Filter>
@@ -73,8 +73,14 @@
 			<Filter>Source\PuzzlePlatformer</Filter>
 		</ClInclude >
 		<Filter Include="Source\PuzzlePlatformer\MenuSystems">
-			<UniqueIdentifier>{3CE163ED-EB75-4748-BCAA-0A1DD0B1CE3E}</UniqueIdentifier>
+			<UniqueIdentifier>{FBFFDA01-D834-4769-8563-7A12E81157C2}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\PuzzlePlatformer\MenuSystems\InGameMenu.cpp">
+			<Filter>Source\PuzzlePlatformer\MenuSystems</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PuzzlePlatformer\MenuSystems\InGameMenu.h">
+			<Filter>Source\PuzzlePlatformer\MenuSystems</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\PuzzlePlatformer\MenuSystems\MainMenuSource.cpp">
 			<Filter>Source\PuzzlePlatformer\MenuSystems</Filter>
 		</ClCompile >
