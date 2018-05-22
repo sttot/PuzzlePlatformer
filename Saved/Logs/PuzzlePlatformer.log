@@ -874,3 +874,177 @@ Error: CDO Constructor (PuzzlePlatformsGameInstance): Failed to find /Game/MenuS
 [2018.05.22-08.44.58:334][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
 [2018.05.22-08.44.58:996][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
 [2018.05.22-08.44.59:040][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.10.02:333][775]LogSlate: Took 0.037281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.05.22-09.10.29:001][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:001][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:001][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:001][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:002][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:002][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:002][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:002][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:003][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:003][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:003][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:003][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:003][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:003][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:004][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:004][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:004][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:004][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:004][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:005][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:005][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:005][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:005][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:005][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:005][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:006][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:006][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:006][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:006][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:006][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:007][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:007][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:007][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:007][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:007][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:007][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:008][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:008][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:008][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:008][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:008][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:009][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:009][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:009][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:009][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:009][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:010][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:010][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:010][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:010][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.10.29:010][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.05.22-09.10.29:011][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.05.22-09.13.10:283][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystems/MainMenu' took 0.047
+[2018.05.22-09.13.10:285][337]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystems/WBP_MainMenu] ([1] browsable assets)...
+[2018.05.22-09.13.10:285][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystems/WBP_MainMenu]
+[2018.05.22-09.13.10:305][337]LogSavePackage: Save=15.77ms
+[2018.05.22-09.13.10:305][337]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/WBP_MainMenu_Auto204ABC48F45B9B0E053C0D7A20C3A7E46.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/MenuSystems/WBP_MainMenu_Auto2.uasset'
+[2018.05.22-09.13.10:307][337]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/MenuSystems/WBP_MainMenu_Auto2.uasset
+[2018.05.22-09.13.10:307][337]LogFileHelpers: Auto-saving content packages took 0.023
+[2018.05.22-09.21.03:614][885]BlueprintLog: New page: Compile WBP_MainMenu
+[2018.05.22-09.21.12:871][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystems/WBP_MainMenu" FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/WBP_MainMenu.uasset" SILENT=true
+[2018.05.22-09.21.12:899][977]LogSavePackage: Save=24.57ms
+[2018.05.22-09.21.12:899][977]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/WBP_MainMenuF3E4F6D741386B1F9D45DA984B5ED432.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/WBP_MainMenu.uasset'
+[2018.05.22-09.21.12:901][977]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/WBP_MainMenu.uasset
+[2018.05.22-09.21.31:315][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.31:316][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-09.21.31:316][767]PIE: New page: PIE session: MainMenu (22 May 2018 11:21:31)
+[2018.05.22-09.21.31:316][767]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-09.21.31:316][767]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-09.21.31:316][767]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
+[2018.05.22-09.21.31:317][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001017s)
+[2018.05.22-09.21.31:318][767]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.22-09.21.31:318][767]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.05.22-09.21.31:319][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002402s)
+[2018.05.22-09.21.31:338][767]LogTemp: Warning: Game Instance Init
+[2018.05.22-09.21.31:338][767]LogTemp: Warning: Found class WBP_MainMenu_C
+[2018.05.22-09.21.31:340][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.22-09.21.31:348][767]LogInit: FAudioDevice initialized.
+[2018.05.22-09.21.31:423][767]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-09.21.31:426][767]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.21.31
+[2018.05.22-09.21.31:428][767]LogWorld: Bringing up level for play took: 0.002642
+[2018.05.22-09.21.31:438][767]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu -0.307
+[2018.05.22-09.21.31:439][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.31:487][767]LogRenderer: Reallocating scene render targets to support 1932x1116 Format 10 NumSamples 1 (Frame:1).
+[2018.05.22-09.21.48:841][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.48:872][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.50:685][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.50:685][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-09.21.50:686][373]PIE: New page: PIE session: MainMenu (22 May 2018 11:21:50)
+[2018.05.22-09.21.50:686][373]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-09.21.50:686][373]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-09.21.50:686][373]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
+[2018.05.22-09.21.50:687][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000885s)
+[2018.05.22-09.21.50:688][373]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.22-09.21.50:688][373]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2018.05.22-09.21.50:688][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002090s)
+[2018.05.22-09.21.50:704][373]LogTemp: Warning: Game Instance Init
+[2018.05.22-09.21.50:704][373]LogTemp: Warning: Found class WBP_MainMenu_C
+[2018.05.22-09.21.50:706][373]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.22-09.21.50:714][373]LogInit: FAudioDevice initialized.
+[2018.05.22-09.21.50:744][373]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-09.21.50:745][373]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.21.50
+[2018.05.22-09.21.50:745][373]LogWorld: Bringing up level for play took: 0.000546
+[2018.05.22-09.21.50:748][373]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu 1.003
+[2018.05.22-09.21.50:748][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.51:862][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.51:896][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.53:338][524]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-09.21.53:354][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.53:355][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-09.21.53:355][524]PIE: New page: PIE session: MainMenu (22 May 2018 11:21:53)
+[2018.05.22-09.21.53:355][524]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-09.21.53:355][524]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-09.21.53:355][524]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
+[2018.05.22-09.21.53:356][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000800s)
+[2018.05.22-09.21.53:357][524]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.22-09.21.53:357][524]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2018.05.22-09.21.53:357][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002146s)
+[2018.05.22-09.21.53:375][524]LogTemp: Warning: Game Instance Init
+[2018.05.22-09.21.53:375][524]LogTemp: Warning: Found class WBP_MainMenu_C
+[2018.05.22-09.21.53:377][524]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.22-09.21.53:384][524]LogInit: FAudioDevice initialized.
+[2018.05.22-09.21.53:419][524]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-09.21.53:420][524]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.21.53
+[2018.05.22-09.21.53:421][524]LogWorld: Bringing up level for play took: 0.000641
+[2018.05.22-09.21.53:423][524]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu -0.322
+[2018.05.22-09.21.53:424][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.56:876][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.21.56:913][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.22.05:332][890]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.05.22-09.22.05:336][890]Candidate modules for hot reload:
+[2018.05.22-09.22.05:336][890]  PuzzlePlatformer
+[2018.05.22-09.22.05:336][890]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 524 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
+[2018.05.22-09.22.05:338][890]Warning: Starting HotReload took  0.0s.
+[2018.05.22-09.22.12:691][253]CompilerResultsLog: New page: Compilation - 22 May 2018 11:22:12
+[2018.05.22-09.22.12:692][253]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.22-09.22.12:692][253]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.22-09.22.12:692][253]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.22-09.22.12:692][253]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
+[2018.05.22-09.22.12:693][253]CompilerResultsLog: [2/3] Link UE4Editor-PuzzlePlatformer-524.dll
+[2018.05.22-09.22.12:693][253]CompilerResultsLog: [3/3] Link UE4Editor-PuzzlePlatformer-524.lib
+[2018.05.22-09.22.12:693][253]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.exp
+[2018.05.22-09.22.12:694][253]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.suppressed.exp
+[2018.05.22-09.22.12:694][253]CompilerResultsLog: Total build time: 7.13 seconds (Local executor: 6.53 seconds)
+[2018.05.22-09.22.12:694][253]LogMainFrame: MainFrame: Module compiling took 7.362 seconds
+[2018.05.22-09.22.12:756][253]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-09.22.12:756][253]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-09.22.12:758][253]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2018.05.22-09.22.12:760][253]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.05.22-09.22.13:067][253]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2370 classes and 525 folders.
+[2018.05.22-09.22.13:071][253]Display: HotReload took  7.7s.
+[2018.05.22-09.22.15:167][379]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-09.22.15:184][379]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.22.15:185][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-09.22.15:186][379]PIE: New page: PIE session: MainMenu (22 May 2018 11:22:15)
+[2018.05.22-09.22.15:186][379]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-09.22.15:186][379]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-09.22.15:186][379]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
+[2018.05.22-09.22.15:187][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000875s)
+[2018.05.22-09.22.15:188][379]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.22-09.22.15:188][379]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2018.05.22-09.22.15:188][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002160s)
+[2018.05.22-09.22.15:225][379]LogTemp: Warning: Game Instance Init
+[2018.05.22-09.22.15:225][379]LogTemp: Warning: Found class WBP_MainMenu_C
+[2018.05.22-09.22.15:227][379]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.22-09.22.15:234][379]LogInit: FAudioDevice initialized.
+[2018.05.22-09.22.15:267][379]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-09.22.15:269][379]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.22.15
+[2018.05.22-09.22.15:269][379]LogWorld: Bringing up level for play took: 0.000662
+[2018.05.22-09.22.15:272][379]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu -0.473
+[2018.05.22-09.22.15:272][379]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.22.18:624][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-09.22.18:662][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'

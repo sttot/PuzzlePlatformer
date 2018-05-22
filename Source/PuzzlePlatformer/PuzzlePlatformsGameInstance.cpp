@@ -65,7 +65,7 @@ void UPuzzlePlatformsGameInstance::LoadMenu()
 	// MouseLockMode Ref: http://api.unrealengine.com/INT/API/Runtime/Engine/Engine/EMouseLockMode/index.html
 	FInputModeUIOnly InputModeData;
 	InputModeData.SetWidgetToFocus( m_pcMenu->TakeWidget() );
-	InputModeData.SetLockMouseToViewportBehavior( EMouseLockMode::LockOnCapture );
+	InputModeData.SetLockMouseToViewportBehavior( EMouseLockMode::DoNotLock );
 
 	// Once set, initialise input mode to player
 	pcPlayerController->SetInputMode( InputModeData );
