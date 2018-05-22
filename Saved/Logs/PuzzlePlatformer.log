@@ -1,4 +1,4 @@
-﻿Log file open, 05/22/18 09:24:35
+﻿Log file open, 05/22/18 18:33:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PuzzlePlatformer
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-867590755) SRandInit(-867590755).
+LogInit: Display: RandInit(-1175265480) SRandInit(-1175265479).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.169947
+LogStats: Stats thread started at 0.179329
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,159 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Warning: Module file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Binaries/Win64/UE4Editor-PuzzlePlatformer-8658.dll is missing. This is likely a stale module that must be recompiled.
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Warning: Incompatible or missing module: UE4Editor-PuzzlePlatformer.dll
-Running D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer Development Win64 -project="D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build.
-Creating makefile for PuzzlePlatformer (no existing makefile)
-@progress push 5%
-@progress pop
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1064.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1064.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1458.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1458.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1476.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1476.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1622.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1622.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1673.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-1673.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-2282.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-2282.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-289.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-289.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-310.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-310.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3402.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3402.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-351.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-351.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3555.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3555.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3735.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3735.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3996.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-3996.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-4235.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-4235.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-4309.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-4309.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-4703.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-4703.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5177.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5177.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-54.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-54.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5510.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5510.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5570.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5570.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5827.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-5827.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-647.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-647.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-6719.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-6719.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-7027.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-7027.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-7464.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-7464.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-7681.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-7681.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-8491.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-8491.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-8750.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-8750.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9151.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9151.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9306.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9306.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9445.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9445.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9504.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9504.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9893.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9893.pdb".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9989.dll".
-Deleting old hot reload file: "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Binaries\Win64\UE4Editor-PuzzlePlatformer-9989.pdb".
-Performing 1 actions (4 in parallel)
-[1/1] Link UE4Editor-PuzzlePlatformer.dll
-   Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer.suppressed.exp
-Total build time: 7.19 seconds (Local executor: 0.81 seconds)
-LogModuleManager: Display: Found up-to-date module file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Binaries/Win64/UE4Editor-PuzzlePlatformer.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Binaries/Win64/UE4Editor-PuzzlePlatformer-1827.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -349,702 +197,303 @@ LogInit: Base directory: D:/UT2016/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.22-08.24.47:768][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.22-08.24.47:768][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.22-08.24.47:778][  0]LogInit: Computer: WINDOWS8V1
-[2018.05.22-08.24.47:778][  0]LogInit: User: Aaron
-[2018.05.22-08.24.47:778][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.22-08.24.47:778][  0]LogInit: High frequency timer resolution =2.338341 MHz
-[2018.05.22-08.24.47:778][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.22-08.24.47:778][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.22-08.24.47:778][  0]LogMemory: Process Physical Memory: 274.88 MB used, 274.88 MB peak
-[2018.05.22-08.24.47:778][  0]LogMemory: Process Virtual Memory: 270.63 MB used, 270.63 MB peak
-[2018.05.22-08.24.47:778][  0]LogMemory: Physical Memory: 10031.47 MB used,  6240.78 MB free, 16272.25 MB total
-[2018.05.22-08.24.47:778][  0]LogMemory: Virtual Memory: 648.21 MB used,  6240.78 MB free, 134217728.00 MB total
-[2018.05.22-08.24.47:890][  0]LogInit: Using OS detected language (en-GB).
-[2018.05.22-08.24.47:890][  0]LogInit: Using OS detected locale (en-GB).
-[2018.05.22-08.24.47:897][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.05.22-08.24.48:328][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.22-08.24.48:775][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.22-08.24.48:803][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
-[2018.05.22-08.24.48:803][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.22-08.24.48:825][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
-[2018.05.22-08.24.48:825][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2018.05.22-08.24.48:826][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.22-08.24.48:826][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.22-08.24.48:826][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.22-08.24.48:833][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.22-08.24.48:833][  0]LogD3D11RHI:     GPU DeviceId: 0x11e0 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.22-08.24.48:833][  0]LogWindows: EnumDisplayDevices:
-[2018.05.22-08.24.48:833][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.05.22-08.24.48:834][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.22-08.24.48:834][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.22-08.24.48:834][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.22-08.24.48:834][  0]LogWindows:    4. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.22-08.24.48:834][  0]LogWindows:    5. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.22-08.24.48:834][  0]LogWindows:    6. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
-[2018.05.22-08.24.48:834][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.05.22-08.24.48:834][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770M
-[2018.05.22-08.24.48:834][  0]LogD3D11RHI:   Driver Version: 375.95 (internal:21.21.13.7595, unified:375.95)
-[2018.05.22-08.24.48:834][  0]LogD3D11RHI:      Driver Date: 11-16-2016
-[2018.05.22-08.24.48:834][  0]LogRHI: Texture pool is 2083 MB (70% of 2976 MB)
-[2018.05.22-08.24.48:853][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.22-08.24.48:871][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.22-08.24.48:871][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Intermediate/Shaders/WorkingDirectory/10568/).
-[2018.05.22-08.24.48:872][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron/AppData/Local/Temp/UnrealShaderWorkingDir/DCDAC3C043466B135B3D1CBEF7750E6C/'.
-[2018.05.22-08.24.48:872][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.22-08.24.49:989][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.22-08.24.50:030][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.22-08.24.50:071][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.22-08.24.50:113][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.22-08.24.50:157][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.22-08.24.50:199][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.22-08.24.50:240][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.22-08.24.50:281][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.22-08.24.50:316][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.22-08.24.50:357][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.22-08.24.50:397][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.22-08.24.50:437][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.22-08.24.50:480][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.22-08.24.50:521][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.22-08.24.50:604][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.22-08.24.50:604][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.22-08.24.50:647][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.22-08.24.50:676][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.22-08.24.50:753][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.22-08.24.50:775][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.22-08.24.50:816][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.22-08.24.50:860][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.22-08.24.50:903][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.22-08.24.50:950][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.22-08.24.50:950][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.22-08.24.51:327][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.22-08.24.51:429][  0]LogDerivedDataCache: Loaded boot cache 0.10s 79MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.22-08.24.51:429][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.22-08.24.51:429][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.22-08.24.51:429][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.22-08.24.51:429][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.22-08.24.51:429][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.22-08.24.51:449][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.22-08.24.51:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.22-08.24.51:473][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.22-08.24.51:474][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.22-08.24.51:475][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.22-08.24.51:475][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.22-08.24.51:954][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.22-08.24.52:264][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.22-08.24.52:296][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.22-08.24.52:296][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.22-08.24.52:296][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.22-08.24.52:296][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.22-08.24.52:296][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.22-08.24.52:326][  0]LogNetVersion: PuzzlePlatformer , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2521452977)
-[2018.05.22-08.24.52:494][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.05.22-08.24.53:036][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.063363 seconds
-[2018.05.22-08.24.53:043][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.22-08.24.53:043][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.22-08.24.53:043][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.22-08.24.53:081][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.22-08.24.56:171][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.22-08.24.56:208][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.22-08.24.56:788][  0]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.24.56:799][  0]LogUObjectGlobals: Warning: BlueprintGeneratedClass /Game/PuzzlePlatormer/BP_MyPlatformTrigger.BP_MyPlatformTrigger_C is not a child class of Class /Script/UMG.UserWidget
-[2018.05.22-08.24.56:799][  0]Error: CDO Constructor (PuzzlePlatformsGameInstance): Failed to find /Game/PuzzlePlatormer/BP_MyPlatformTrigger.BP_MyPlatformTrigger_C
-
-[2018.05.22-08.24.57:020][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.221 s
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: === Handled ensure: ===
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: 
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: Ensure condition failed: MenuBPClass.Class != nullptr [File:D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Source\PuzzlePlatformer\PuzzlePlatformsGameInstance.cpp] [Line: 20]
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: 
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: Stack: 
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000CBEE2786 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000CBC8123A UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000CBC9B906 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x000000009DBB716C UE4Editor-PuzzlePlatformer.dll!UPuzzlePlatformsGameInstance::UPuzzlePlatformsGameInstance() [d:\_unrealprojects\puzzle_platformer\puzzleplatformer\source\puzzleplatformer\puzzleplatformsgameinstance.cpp:20]
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000D6E705CD UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000D70E91B0 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000D70CB41F UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000D6E72547 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000CBB1E6C0 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000CBD72282 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000E56BF60D UE4Editor-Projects.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000E56BF91E UE4Editor-Projects.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x000000003AE17F71 UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x000000003AE1C4EC UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x000000003AE1525A UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x000000003AE154AA UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x000000003AE22379 UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x000000003AE23D57 UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000F23C13D2 KERNEL32.DLL!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: [Callstack] 0x00000000F4CD54F4 ntdll.dll!UnknownFunction []
-[2018.05.22-08.24.57:020][  0]LogOutputDevice: Error: 
-[2018.05.22-08.24.57:023][  0]LogStats:                SubmitErrorReport -  0.000 s
-[2018.05.22-08.24.57:244][  0]LogStats:                    SendNewReport -  0.220 s
-[2018.05.22-08.24.57:244][  0]LogStats:             FDebug::EnsureFailed -  0.444 s
-[2018.05.22-08.24.57:244][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
-[2018.05.22-08.24.57:244][  0]LogUObjectBase: Warning: Error: CDO Constructor (PuzzlePlatformsGameInstance): Failed to find /Game/PuzzlePlatormer/BP_MyPlatformTrigger.BP_MyPlatformTrigger_C
-
-[2018.05.22-08.24.57:248][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.22-08.24.59:450][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.22-08.24.59:451][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.22-08.24.59:664][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.22-08.25.00:049][  0]SourceControl: Source control is disabled
-[2018.05.22-08.25.00:049][  0]SourceControl: Source control is disabled
-[2018.05.22-08.25.00:104][  0]SourceControl: Source control is disabled
-[2018.05.22-08.25.00:160][  0]SourceControl: Source control is disabled
-[2018.05.22-08.25.00:827][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.22-08.25.01:053][  0]LogOcInput: OculusInput pre-init called
-[2018.05.22-08.25.01:269][  0]LogEngine: Initializing Engine...
-[2018.05.22-08.25.01:274][  0]LogHMD: Failed to initialize OpenVR with code 105
-[2018.05.22-08.25.01:513][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.22-08.25.01:513][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.22-08.25.01:616][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.22-08.25.01:623][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-08.25.01:641][  0]LogInit: FAudioDevice initialized.
-[2018.05.22-08.25.01:931][  0]LogDerivedDataCache: Saved boot cache 0.29s 79MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.22-08.25.01:943][  0]LogInit: Texture streaming: Enabled
-[2018.05.22-08.25.02:010][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.22-08.25.02:037][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={64F9F66F-4736-0958-7C5D-AFA1771611D0}
-[2018.05.22-08.25.02:133][  0]LogInit: Transaction tracking system initialized
-[2018.05.22-08.25.02:359][  0]BlueprintLog: New page: Editor Load
-[2018.05.22-08.25.03:039][  0]LocalizationService: Localization service is disabled
-[2018.05.22-08.25.03:602][  0]LogConsoleResponse: Display: 
-[2018.05.22-08.25.03:769][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.22-08.25.03:769][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.22-08.25.03:769][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.22-08.25.04:687][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/' took 0.01s
-[2018.05.22-08.25.04:721][  0]SourceControl: Source control is disabled
-[2018.05.22-08.25.04:721][  0]Cmd: MAP LOAD FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.22-08.25.04:722][  0]LightingResults: New page: Lighting Build
-[2018.05.22-08.25.04:752][  0]MapCheck: New page: Map Check
-[2018.05.22-08.25.04:752][  0]LightingResults: New page: Lighting Build
-[2018.05.22-08.25.04:913][  0]LogAIModule: Creating AISystem for world Lobby
-[2018.05.22-08.25.04:920][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.22-08.25.04:931][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.22-08.25.05:006][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.167ms to complete.
-[2018.05.22-08.25.05:006][  0]LogFileHelpers: Loading map 'Lobby' took 0.286
-[2018.05.22-08.25.05:141][  0]LogCollectionManager: Loaded 0 collections in 0.000802 seconds
-[2018.05.22-08.25.05:211][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Collections/' took 0.01s
-[2018.05.22-08.25.05:211][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Developers/Aaron/Collections/' took 0.01s
-[2018.05.22-08.25.05:211][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Collections/' took 0.01s
-[2018.05.22-08.25.05:211][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.22-08.25.05:221][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2368 classes and 521 folders.
-[2018.05.22-08.25.05:268][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.05.22-08.25.05:331][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.05.22-08.25.05:373][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.05.22-08.25.05:393][  0]LogSlate: Took 0.000665 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.22-08.25.05:400][  0]LogSlate: Took 0.001188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.22-08.25.05:408][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.22-08.25.05:409][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.05.22-08.25.05:585][  0]LogRenderer: Reallocating scene render targets to support 1208x596 Format 10 NumSamples 1 (Frame:1).
-[2018.05.22-08.25.05:792][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.05.22-08.25.05:792][  0]LogLoad: (Engine Initialization) Total time: 31.16 seconds
-[2018.05.22-08.25.05:792][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.22-08.25.05:792][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.22-08.25.06:151][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.22-08.25.06:471][  1]LogAssetRegistry: Asset discovery search completed in 13.9992 seconds
-[2018.05.22-08.25.06:473][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.22-08.25.06:473][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000233 seconds (updated 0 objects)
-[2018.05.22-08.25.53:639][808]MapCheck: New page: Map Check
-[2018.05.22-08.25.53:745][808]Cmd: MAP REBUILD ALLVISIBLE
-[2018.05.22-08.25.53:750][808]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.05.22-08.25.54:004][808]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.05.22-08.25.54:085][808]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
-[2018.05.22-08.25.54:094][808]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2018.05.22-08.25.54:104][808]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
-[2018.05.22-08.25.55:921][808]TextureStreamingBuild: Display: Compiling optional shaders took 1.929 seconds.
-[2018.05.22-08.25.55:989][808]LogLevel: Display: Export Material TexCoord Scales took 0.068 seconds.
-[2018.05.22-08.25.56:008][808]TextureStreamingBuild: Display: Build Texture Streaming took 0.018 seconds.
-[2018.05.22-08.25.56:031][808]LightingResults: New page: Lighting Build - 22 May 2018 10:25:56
-[2018.05.22-08.25.56:255][808]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.05.22-08.25.56:329][808]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.05.22-08.25.56:348][808]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.05.22-08.25.57:408][808]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.05.22-08.25.57:408][808]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10568
-[2018.05.22-08.26.00:004][808]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.05.22-08.26.00:004][808]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.05.22-08.26.00:004][808]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.05.22-08.26.00:004][808]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.05.22-08.26.00:004][808]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.05.22-08.26.00:235][808]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.05.22-08.26.00:236][808]MapCheck: New page: Lobby - 22 May 2018 10:26:00
-[2018.05.22-08.26.00:406][808]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 171.052ms to complete.
-[2018.05.22-08.26.00:429][808]LogEditorBuildUtils: Build time 0:06
-[2018.05.22-08.26.05:814][ 97]Job is a success!
-[2018.05.22-08.26.05:970][ 98]LogSlate: Took 0.034985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.22-08.26.06:079][ 98]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.042s
-[2018.05.22-08.26.06:079][ 98]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.05.22-08.26.06:079][ 98]LogVolumetricLightmapImport:      BrickData 245x5x5 = 0.2Mb
-[2018.05.22-08.26.06:079][ 98]LogVolumetricLightmapImport:      Bricks at Level
-[2018.05.22-08.26.06:079][ 98]LogVolumetricLightmapImport:          0: 2.0% covering 100.0% of volume
-[2018.05.22-08.26.06:079][ 98]LogVolumetricLightmapImport:          1: 8.2% covering 6.3% of volume
-[2018.05.22-08.26.06:079][ 98]LogVolumetricLightmapImport:          2: 89.8% covering 1.1% of volume
-[2018.05.22-08.26.07:055][ 98]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2018.05.22-08.26.07:055][ 98]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2018.05.22-08.26.07:055][ 98]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2018.05.22-08.26.07:055][ 98]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.05.22-08.26.07:056][ 98]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.05.22-08.26.07:056][ 98]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2018.05.22-08.26.07:258][ 98]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2018.05.22-08.26.07:258][ 98]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
-[2018.05.22-08.26.07:290][ 98]Lightmass on WINDOWS8V1: 5.69 sec total, 113 ms importing, 3 ms setup, 1.09 sec photons, 4.42 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 30.7 sec total, 8.91 sec processing.
-[2018.05.22-08.26.07:334][ 98]LogStaticLightingSystem: Illumination: 11.2 sec (845 ms encoding lightmaps, 190 ms encoding shadowmaps)
-[2018.05.22-08.26.07:335][ 98]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.05.22-08.26.07:335][ 98]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.05.22-08.26.07:943][ 98]DumpUnbuiltLightIteractions
-[2018.05.22-08.26.07:943][ 98]Lights with unbuilt interactions: 0
-[2018.05.22-08.26.07:943][ 98]
-[2018.05.22-08.26.07:943][ 98]Primitives with unbuilt interactions: 0
-[2018.05.22-08.26.08:080][ 99]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.05.22-08.26.08:080][ 99]MapCheck: New page: Lobby - 22 May 2018 10:26:08
-[2018.05.22-08.26.08:155][ 99]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.662ms to complete.
-[2018.05.22-08.34.59:713][615]LogSlate: Took 0.000786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.22-08.35.09:514][642]LogSavePackage: Save=532.65ms
-[2018.05.22-08.35.09:514][642]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Lobby_Auto15DC655A6444F2BDBF3391590435CB5B9.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/Maps/Lobby_Auto1.umap'
-[2018.05.22-08.35.09:527][642]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/Maps/Lobby_Auto1.umap
-[2018.05.22-08.35.09:535][642]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Lobby' took 0.805
-[2018.05.22-08.35.09:535][642]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.805
-[2018.05.22-08.35.09:538][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Lobby_BuiltData] ([1] browsable assets)...
-[2018.05.22-08.35.09:538][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Lobby_BuiltData]
-[2018.05.22-08.35.09:575][642]LogSavePackage: Save=12.65ms
-[2018.05.22-08.35.09:576][642]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Lobby_BuiltData_Auto11CC87A5A45A061514099628FBCACB2C0.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/Maps/Lobby_BuiltData_Auto1.uasset'
-[2018.05.22-08.35.09:577][642]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/Maps/Lobby_BuiltData_Auto1.uasset
-[2018.05.22-08.35.09:577][642]LogFileHelpers: Auto-saving content packages took 0.040
-[2018.05.22-08.35.21:624][767]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.22-08.35.46:343][438]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.22-08.35.46:346][438]Candidate modules for hot reload:
-[2018.05.22-08.35.46:347][438]  PuzzlePlatformer
-[2018.05.22-08.35.46:347][438]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 2098 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.22-08.35.46:351][438]Warning: Starting HotReload took  0.0s.
-[2018.05.22-08.35.55:391][502]CompilerResultsLog: New page: Compilation - 22 May 2018 10:35:55
-[2018.05.22-08.35.55:391][502]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.22-08.35.55:391][502]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.22-08.35.55:391][502]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.05.22-08.35.55:391][502]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
-[2018.05.22-08.35.55:391][502]CompilerResultsLog: [2/3] Link UE4Editor-PuzzlePlatformer-2098.dll
-[2018.05.22-08.35.55:392][502]CompilerResultsLog: [3/3] Link UE4Editor-PuzzlePlatformer-2098.lib
-[2018.05.22-08.35.55:392][502]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-2098.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-2098.exp
-[2018.05.22-08.35.55:392][502]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-2098.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-2098.suppressed.exp
-[2018.05.22-08.35.55:392][502]CompilerResultsLog: Total build time: 8.61 seconds (Local executor: 8.04 seconds)
-[2018.05.22-08.35.55:393][502]LogMainFrame: MainFrame: Module compiling took 9.050 seconds
-[2018.05.22-08.35.55:450][502]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.35.55:479][502]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/MenuSystems/WBP_MainMenu.WBP_MainMenu'
-[2018.05.22-08.35.55:479][502]Error: CDO Constructor (PuzzlePlatformsGameInstance): Failed to find /Game/MenuSystems/WBP_MainMenu.WBP_MainMenu
-
-[2018.05.22-08.35.55:664][502]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.185 s
-[2018.05.22-08.35.55:664][502]LogOutputDevice: Error: === Handled ensure: ===
-[2018.05.22-08.35.55:664][502]LogOutputDevice: Error: 
-[2018.05.22-08.35.55:664][502]LogOutputDevice: Error: Ensure condition failed: MenuBPClass.Class != nullptr [File:D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Source\PuzzlePlatformer\PuzzlePlatformsGameInstance.cpp] [Line: 20]
-[2018.05.22-08.35.55:664][502]LogOutputDevice: Error: 
-[2018.05.22-08.35.55:664][502]LogOutputDevice: Error: Stack: 
-[2018.05.22-08.35.55:664][502]LogOutputDevice: Error: [Callstack] 0x00000000CBEE2786 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.35.55:665][502]LogOutputDevice: Error: [Callstack] 0x00000000CBC8123A UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.35.55:665][502]LogOutputDevice: Error: [Callstack] 0x00000000CBC9B906 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.35.55:665][502]LogOutputDevice: Error: [Callstack] 0x00000000E20E710C UE4Editor-PuzzlePlatformer-2098.dll!UPuzzlePlatformsGameInstance::UPuzzlePlatformsGameInstance() [d:\_unrealprojects\puzzle_platformer\puzzleplatformer\source\puzzleplatformer\puzzleplatformsgameinstance.cpp:20]
-[2018.05.22-08.35.55:665][502]LogOutputDevice: Error: [Callstack] 0x000000009D8FA27E UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:665][502]LogOutputDevice: Error: [Callstack] 0x000000009D8FADDE UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:665][502]LogOutputDevice: Error: [Callstack] 0x000000009D8E724A UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x000000009D8F1C92 UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x000000009D8FCA0B UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x000000009D8FCE05 UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x000000009D8F4DE6 UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x00000000D6DE9AC5 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x00000000D70E7D18 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x00000000D70CB426 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.35.55:666][502]LogOutputDevice: Error: [Callstack] 0x00000000D6E72547 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x00000000CBB1E6C0 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x00000000CBD72282 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x00000000CBD71593 UE4Editor-Core.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x000000009D8F309F UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x000000009D8F0434 UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x000000009D8F0E00 UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x000000009D9042DB UE4Editor-HotReload.dll!UnknownFunction []
-[2018.05.22-08.35.55:667][502]LogOutputDevice: Error: [Callstack] 0x00000000B46F53DE UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x00000000B4FA4AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x000000003AE05A26 UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x000000003AE15430 UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x000000003AE154AA UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x000000003AE22379 UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x000000003AE23D57 UE4Editor.exe!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x00000000F23C13D2 KERNEL32.DLL!UnknownFunction []
-[2018.05.22-08.35.55:668][502]LogOutputDevice: Error: [Callstack] 0x00000000F4CD54F4 ntdll.dll!UnknownFunction []
-[2018.05.22-08.35.55:669][502]LogOutputDevice: Error: 
-[2018.05.22-08.35.55:676][502]LogStats:                SubmitErrorReport -  0.000 s
-[2018.05.22-08.35.56:080][502]LogStats:                    SendNewReport -  0.403 s
-[2018.05.22-08.35.56:080][502]LogStats:             FDebug::EnsureFailed -  0.601 s
-[2018.05.22-08.35.56:080][502]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2018.05.22-08.35.56:081][502]Warning: Some classes could not be reloaded:
-Error: CDO Constructor (PuzzlePlatformsGameInstance): Failed to find /Game/MenuSystems/WBP_MainMenu.WBP_MainMenu
-
-
-[2018.05.22-08.35.56:083][502]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
-[2018.05.22-08.35.56:165][502]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2370 classes and 525 folders.
-[2018.05.22-08.35.56:166][502]Display: HotReload took  9.8s.
-[2018.05.22-08.36.14:861][482]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.22-08.36.14:864][482]Candidate modules for hot reload:
-[2018.05.22-08.36.14:864][482]  PuzzlePlatformer
-[2018.05.22-08.36.14:865][482]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 3923 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.22-08.36.14:867][482]Warning: Starting HotReload took  0.0s.
-[2018.05.22-08.36.17:772][507]CompilerResultsLog: New page: Compilation - 22 May 2018 10:36:17
-[2018.05.22-08.36.17:772][507]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.22-08.36.17:772][507]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.22-08.36.17:772][507]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.05.22-08.36.17:772][507]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
-[2018.05.22-08.36.17:772][507]CompilerResultsLog: [2/3] Link UE4Editor-PuzzlePlatformer-3923.dll
-[2018.05.22-08.36.17:773][507]CompilerResultsLog: [3/3] Link UE4Editor-PuzzlePlatformer-3923.lib
-[2018.05.22-08.36.17:773][507]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-3923.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-3923.exp
-[2018.05.22-08.36.17:773][507]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-3923.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-3923.suppressed.exp
-[2018.05.22-08.36.17:773][507]CompilerResultsLog: Total build time: 2.46 seconds (Local executor: 1.92 seconds)
-[2018.05.22-08.36.17:774][507]LogMainFrame: MainFrame: Module compiling took 2.913 seconds
-[2018.05.22-08.36.17:822][507]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.36.17:823][507]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-08.36.17:823][507]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2018.05.22-08.36.17:825][507]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
-[2018.05.22-08.36.17:873][507]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2370 classes and 525 folders.
-[2018.05.22-08.36.17:873][507]Display: HotReload took  3.0s.
-[2018.05.22-08.40.55:199][644]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.22-08.40.55:203][644]Candidate modules for hot reload:
-[2018.05.22-08.40.55:203][644]  PuzzlePlatformer
-[2018.05.22-08.40.55:203][644]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 5588 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.22-08.40.55:205][644]Warning: Starting HotReload took  0.0s.
-[2018.05.22-08.41.16:105][759]CompilerResultsLog: New page: Compilation - 22 May 2018 10:41:16
-[2018.05.22-08.41.16:105][759]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.22-08.41.16:105][759]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.22-08.41.16:105][759]CompilerResultsLog: Parsing headers for PuzzlePlatformerEditor
-[2018.05.22-08.41.16:105][759]CompilerResultsLog:   Running UnrealHeaderTool "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\PuzzlePlatformer.uproject" "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\PuzzlePlatformerEditor\Development\PuzzlePlatformerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.05.22-08.41.16:106][759]CompilerResultsLog: Reflection code generated for PuzzlePlatformerEditor in 10.2052934 seconds
-[2018.05.22-08.41.16:106][759]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2018.05.22-08.41.16:106][759]CompilerResultsLog: PuzzlePlatformsGameInstance.gen.cpp
-[2018.05.22-08.41.16:106][759]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
-[2018.05.22-08.41.16:106][759]CompilerResultsLog: PuzzlePlatformer.init.gen.cpp
-[2018.05.22-08.41.16:106][759]CompilerResultsLog: [4/5] Link UE4Editor-PuzzlePlatformer-5588.dll
-[2018.05.22-08.41.16:107][759]CompilerResultsLog: [5/5] Link UE4Editor-PuzzlePlatformer-5588.lib
-[2018.05.22-08.41.16:107][759]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-5588.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-5588.exp
-[2018.05.22-08.41.16:107][759]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-5588.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-5588.suppressed.exp
-[2018.05.22-08.41.16:107][759]CompilerResultsLog: Total build time: 20.61 seconds (Local executor: 9.74 seconds)
-[2018.05.22-08.41.16:107][759]LogMainFrame: MainFrame: Module compiling took 20.908 seconds
-[2018.05.22-08.41.16:159][759]LogClass: Could not find existing class PuzzlePlatformsGameInstance in package /Script/PuzzlePlatformer for HotReload, assuming new class
-[2018.05.22-08.41.16:159][759]LogClass: Function Host is new.
-[2018.05.22-08.41.16:159][759]LogClass: Function Join is new.
-[2018.05.22-08.41.16:159][759]LogClass: Function LoadMenu is new.
-[2018.05.22-08.41.16:159][759]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.41.16:159][759]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-08.41.16:164][759]LogHotReload: Re-instancing PuzzlePlatformsGameInstance after hot-reload.
-[2018.05.22-08.41.16:260][759]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0008 seconds. Added 5 classes and 2 folders.
-[2018.05.22-08.41.16:262][759]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2018.05.22-08.41.16:310][759]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2370 classes and 525 folders.
-[2018.05.22-08.41.16:311][759]Display: HotReload took 21.1s.
-[2018.05.22-08.41.44:844][903]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.22-08.41.44:867][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby'
-[2018.05.22-08.41.44:867][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.22-08.41.44:867][903]PIE: New page: PIE session: Lobby (22 May 2018 10:41:44)
-[2018.05.22-08.41.44:867][903]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.41.44:868][903]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-08.41.44:868][903]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Lobby
-[2018.05.22-08.41.44:901][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033707s)
-[2018.05.22-08.41.44:903][903]LogAIModule: Creating AISystem for world Lobby
-[2018.05.22-08.41.44:903][903]LogPlayLevel: PIE: World Init took: (0.001309s)
-[2018.05.22-08.41.44:904][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Lobby.Lobby to /Game/Maps/UEDPIE_0_Lobby.Lobby (0.035867s)
-[2018.05.22-08.41.44:915][903]LogTemp: Warning: Game Instance Init
-[2018.05.22-08.41.44:915][903]LogTemp: Warning: Found class WBP_MainMenu_C
-[2018.05.22-08.41.44:943][903]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-08.41.44:978][903]LogInit: FAudioDevice initialized.
-[2018.05.22-08.41.45:051][903]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.22-08.41.45:107][903]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 0) at 2018.05.22-09.41.45
-[2018.05.22-08.41.45:138][903]LogWorld: Bringing up level for play took: 0.032055
-[2018.05.22-08.41.45:454][903]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.05.22-08.41.45:811][903]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Lobby 0.066
-[2018.05.22-08.41.45:812][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby'
-[2018.05.22-08.41.50:026][210]Cmd: loadme
-[2018.05.22-08.41.50:199][210]Command not recognized: loadme
-[2018.05.22-08.42.02:170][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby'
-[2018.05.22-08.42.02:249][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Maps/Lobby.Lobby:PersistentLevel.Lobby'
-[2018.05.22-08.42.21:100][247]LogSavePackage: Save=4.23ms
-[2018.05.22-08.42.21:101][247]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/MainMenuFDFC56764B4493D0F2B06681E33A25DB.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenu.umap'
-[2018.05.22-08.42.21:102][247]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenu.umap
-[2018.05.22-08.42.21:104][247]LogFileHelpers: Saving map 'MainMenu' took 0.159
-[2018.05.22-08.42.28:102][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby" FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Maps/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.05.22-08.42.28:284][409]LogSavePackage: Save=160.49ms
-[2018.05.22-08.42.28:284][409]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/LobbyB1E216C44C0465754C69CB85A97AB5E7.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Maps/Lobby.umap'
-[2018.05.22-08.42.28:318][409]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Maps/Lobby.umap
-[2018.05.22-08.42.28:338][409]LogFileHelpers: Saving map 'Lobby' took 0.302
-[2018.05.22-08.42.28:341][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Lobby_BuiltData" FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Maps/Lobby_BuiltData.uasset" SILENT=true
-[2018.05.22-08.42.28:460][409]LogSavePackage: Save=113.95ms
-[2018.05.22-08.42.28:461][409]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Lobby_BuiltDataB29C03D5413E5255701548AD24598E3A.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Maps/Lobby_BuiltData.uasset'
-[2018.05.22-08.42.28:471][409]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Maps/Lobby_BuiltData.uasset
-[2018.05.22-08.42.28:918][439]Cmd: MAP LOAD FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.22-08.42.28:919][439]LightingResults: New page: Lighting Build
-[2018.05.22-08.42.28:919][439]LoadErrors: New page: Loading map: MainMenu.umap
-[2018.05.22-08.42.28:937][439]MapCheck: New page: Map Check
-[2018.05.22-08.42.28:937][439]LightingResults: New page: Lighting Build
-[2018.05.22-08.42.28:980][439]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.22-08.42.28:980][439]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.22-08.42.29:010][439]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.22-08.42.29:079][439]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.429ms to complete.
-[2018.05.22-08.42.29:080][439]LogFileHelpers: Loading map 'MainMenu' took 0.163
-[2018.05.22-08.42.35:684][692]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
-[2018.05.22-08.42.37:384][692]LogSlate: Took 0.019007 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.22-08.43.20:803][571]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.22-08.43.20:815][571]Candidate modules for hot reload:
-[2018.05.22-08.43.20:815][571]  PuzzlePlatformer
-[2018.05.22-08.43.20:815][571]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 1301 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.22-08.43.20:817][571]Warning: Starting HotReload took  0.0s.
-[2018.05.22-08.43.34:411][677]CompilerResultsLog: New page: Compilation - 22 May 2018 10:43:34
-[2018.05.22-08.43.34:411][677]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.22-08.43.34:411][677]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.22-08.43.34:412][677]CompilerResultsLog: Parsing headers for PuzzlePlatformerEditor
-[2018.05.22-08.43.34:412][677]CompilerResultsLog:   Running UnrealHeaderTool "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\PuzzlePlatformer.uproject" "D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\PuzzlePlatformerEditor\Development\PuzzlePlatformerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.05.22-08.43.34:412][677]CompilerResultsLog: Reflection code generated for PuzzlePlatformerEditor in 10.3052608 seconds
-[2018.05.22-08.43.34:412][677]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2018.05.22-08.43.34:412][677]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
-[2018.05.22-08.43.34:412][677]CompilerResultsLog: PuzzlePlatformer.init.gen.cpp
-[2018.05.22-08.43.34:412][677]CompilerResultsLog: PuzzlePlatformsGameInstance.gen.cpp
-[2018.05.22-08.43.34:413][677]CompilerResultsLog: [4/5] Link UE4Editor-PuzzlePlatformer-1301.dll
-[2018.05.22-08.43.34:413][677]CompilerResultsLog: [5/5] Link UE4Editor-PuzzlePlatformer-1301.lib
-[2018.05.22-08.43.34:413][677]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1301.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1301.exp
-[2018.05.22-08.43.34:413][677]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1301.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-1301.suppressed.exp
-[2018.05.22-08.43.34:414][677]CompilerResultsLog: Total build time: 13.26 seconds (Local executor: 2.22 seconds)
-[2018.05.22-08.43.34:414][677]LogMainFrame: MainFrame: Module compiling took 13.610 seconds
-[2018.05.22-08.43.34:582][677]LogClass: Could not find existing class PuzzlePlatformsGameInstance in package /Script/PuzzlePlatformer for HotReload, assuming new class
-[2018.05.22-08.43.34:582][677]LogClass: Function Host is new.
-[2018.05.22-08.43.34:582][677]LogClass: Function Join is new.
-[2018.05.22-08.43.34:583][677]LogClass: Function LoadMenu is new.
-[2018.05.22-08.43.34:583][677]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.43.34:583][677]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-08.43.34:590][677]LogHotReload: Re-instancing PuzzlePlatformsGameInstance after hot-reload.
-[2018.05.22-08.43.34:679][677]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0006 seconds. Added 5 classes and 2 folders.
-[2018.05.22-08.43.34:682][677]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2018.05.22-08.43.35:009][677]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2370 classes and 525 folders.
-[2018.05.22-08.43.35:014][677]Display: HotReload took 14.2s.
-[2018.05.22-08.43.44:943][ 64]LogSlate: Took 0.033143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.22-08.43.52:294][222]BlueprintLog: New page: Compile MainMenu
-[2018.05.22-08.43.56:320][469]LogSavePackage: Save=160.48ms
-[2018.05.22-08.43.56:321][469]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/MainMenu8FD2E12948F96D8B3CC18B90C3B11261.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenu.umap'
-[2018.05.22-08.43.56:323][469]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenu.umap
-[2018.05.22-08.43.56:344][469]LogFileHelpers: Saving map 'MainMenu' took 0.317
-[2018.05.22-08.43.58:267][622]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.22-08.43.58:283][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-08.43.58:284][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.22-08.43.58:284][622]PIE: New page: PIE session: MainMenu (22 May 2018 10:43:58)
-[2018.05.22-08.43.58:284][622]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.43.58:284][622]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-08.43.58:284][622]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
-[2018.05.22-08.43.58:285][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000793s)
-[2018.05.22-08.43.58:286][622]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.22-08.43.58:286][622]LogPlayLevel: PIE: World Init took: (0.000743s)
-[2018.05.22-08.43.58:286][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002016s)
-[2018.05.22-08.43.58:307][622]LogTemp: Warning: Game Instance Init
-[2018.05.22-08.43.58:307][622]LogTemp: Warning: Found class WBP_MainMenu_C
-[2018.05.22-08.43.58:309][622]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-08.43.58:316][622]LogInit: FAudioDevice initialized.
-[2018.05.22-08.43.58:349][622]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.22-08.43.58:350][622]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.22-09.43.58
-[2018.05.22-08.43.58:350][622]LogWorld: Bringing up level for play took: 0.000591
-[2018.05.22-08.43.58:379][622]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu 0.633
-[2018.05.22-08.43.58:379][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-08.43.59:629][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-08.43.59:672][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-08.44.33:291][867]BlueprintLog: New page: Compile MainMenu
-[2018.05.22-08.44.33:295][867]LogBlueprint: Error: [Compiler PersistentLevel.MainMenu] This blueprint (self) is not a PuzzlePlatformsGameInstance, therefore ' Target ' must have a connection.
-[2018.05.22-08.44.33:493][867]LogBlueprint: Warning: [Compiler PersistentLevel.MainMenu] [1198.86] Compile of PersistentLevel.MainMenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 202 ms] (/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu)
-[2018.05.22-08.44.54:726][771]BlueprintLog: New page: Compile MainMenu
-[2018.05.22-08.44.56:562][803]LogSavePackage: Save=134.40ms
-[2018.05.22-08.44.56:562][803]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/MainMenuE5C3AEFC444ABF62C531419541A1AF4F.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenu.umap'
-[2018.05.22-08.44.56:563][803]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenu.umap
-[2018.05.22-08.44.56:584][803]LogFileHelpers: Saving map 'MainMenu' took 0.254
-[2018.05.22-08.44.58:247][945]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.22-08.44.58:262][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-08.44.58:263][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.22-08.44.58:263][945]PIE: New page: PIE session: MainMenu (22 May 2018 10:44:58)
-[2018.05.22-08.44.58:263][945]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-08.44.58:263][945]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-08.44.58:263][945]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
-[2018.05.22-08.44.58:264][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000822s)
-[2018.05.22-08.44.58:265][945]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.22-08.44.58:265][945]LogPlayLevel: PIE: World Init took: (0.000726s)
-[2018.05.22-08.44.58:265][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002030s)
-[2018.05.22-08.44.58:286][945]LogTemp: Warning: Game Instance Init
-[2018.05.22-08.44.58:286][945]LogTemp: Warning: Found class WBP_MainMenu_C
-[2018.05.22-08.44.58:288][945]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-08.44.58:296][945]LogInit: FAudioDevice initialized.
-[2018.05.22-08.44.58:330][945]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.22-08.44.58:331][945]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.22-09.44.58
-[2018.05.22-08.44.58:331][945]LogWorld: Bringing up level for play took: 0.000559
-[2018.05.22-08.44.58:334][945]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu 0.589
-[2018.05.22-08.44.58:334][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-08.44.58:996][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-08.44.59:040][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.10.02:333][775]LogSlate: Took 0.037281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2018.05.22-09.10.29:001][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:001][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:001][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:001][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:002][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:002][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:002][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:002][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:003][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:003][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:003][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:003][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:003][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:003][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:004][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:004][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:004][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:004][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:004][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:005][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:005][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:005][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:005][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:005][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:005][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:006][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:006][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:006][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:006][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:006][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:007][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:007][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:007][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:007][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:007][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:007][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:008][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:008][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:008][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:008][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:008][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:009][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:009][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:009][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:009][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:009][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:010][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:010][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:010][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:010][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.10.29:010][223]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
-[2018.05.22-09.10.29:011][223]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
-[2018.05.22-09.13.10:283][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuSystems/MainMenu' took 0.047
-[2018.05.22-09.13.10:285][337]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MenuSystems/WBP_MainMenu] ([1] browsable assets)...
-[2018.05.22-09.13.10:285][337]OBJ SavePackage: Finished generating thumbnails for package [/Game/MenuSystems/WBP_MainMenu]
-[2018.05.22-09.13.10:305][337]LogSavePackage: Save=15.77ms
-[2018.05.22-09.13.10:305][337]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/WBP_MainMenu_Auto204ABC48F45B9B0E053C0D7A20C3A7E46.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/MenuSystems/WBP_MainMenu_Auto2.uasset'
-[2018.05.22-09.13.10:307][337]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Autosaves/Game/MenuSystems/WBP_MainMenu_Auto2.uasset
-[2018.05.22-09.13.10:307][337]LogFileHelpers: Auto-saving content packages took 0.023
-[2018.05.22-09.21.03:614][885]BlueprintLog: New page: Compile WBP_MainMenu
-[2018.05.22-09.21.12:871][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuSystems/WBP_MainMenu" FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/WBP_MainMenu.uasset" SILENT=true
-[2018.05.22-09.21.12:899][977]LogSavePackage: Save=24.57ms
-[2018.05.22-09.21.12:899][977]LogSavePackage: Moving '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/WBP_MainMenuF3E4F6D741386B1F9D45DA984B5ED432.tmp' to '../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/WBP_MainMenu.uasset'
-[2018.05.22-09.21.12:901][977]LogSavePackage: Display: Finished SavePackage ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/WBP_MainMenu.uasset
-[2018.05.22-09.21.31:315][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.31:316][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.22-09.21.31:316][767]PIE: New page: PIE session: MainMenu (22 May 2018 11:21:31)
-[2018.05.22-09.21.31:316][767]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-09.21.31:316][767]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-09.21.31:316][767]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
-[2018.05.22-09.21.31:317][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001017s)
-[2018.05.22-09.21.31:318][767]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.22-09.21.31:318][767]LogPlayLevel: PIE: World Init took: (0.000842s)
-[2018.05.22-09.21.31:319][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002402s)
-[2018.05.22-09.21.31:338][767]LogTemp: Warning: Game Instance Init
-[2018.05.22-09.21.31:338][767]LogTemp: Warning: Found class WBP_MainMenu_C
-[2018.05.22-09.21.31:340][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-09.21.31:348][767]LogInit: FAudioDevice initialized.
-[2018.05.22-09.21.31:423][767]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.22-09.21.31:426][767]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.21.31
-[2018.05.22-09.21.31:428][767]LogWorld: Bringing up level for play took: 0.002642
-[2018.05.22-09.21.31:438][767]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu -0.307
-[2018.05.22-09.21.31:439][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.31:487][767]LogRenderer: Reallocating scene render targets to support 1932x1116 Format 10 NumSamples 1 (Frame:1).
-[2018.05.22-09.21.48:841][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.48:872][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.50:685][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.50:685][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.22-09.21.50:686][373]PIE: New page: PIE session: MainMenu (22 May 2018 11:21:50)
-[2018.05.22-09.21.50:686][373]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-09.21.50:686][373]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-09.21.50:686][373]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
-[2018.05.22-09.21.50:687][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000885s)
-[2018.05.22-09.21.50:688][373]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.22-09.21.50:688][373]LogPlayLevel: PIE: World Init took: (0.000696s)
-[2018.05.22-09.21.50:688][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002090s)
-[2018.05.22-09.21.50:704][373]LogTemp: Warning: Game Instance Init
-[2018.05.22-09.21.50:704][373]LogTemp: Warning: Found class WBP_MainMenu_C
-[2018.05.22-09.21.50:706][373]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-09.21.50:714][373]LogInit: FAudioDevice initialized.
-[2018.05.22-09.21.50:744][373]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.22-09.21.50:745][373]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.21.50
-[2018.05.22-09.21.50:745][373]LogWorld: Bringing up level for play took: 0.000546
-[2018.05.22-09.21.50:748][373]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu 1.003
-[2018.05.22-09.21.50:748][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.51:862][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.51:896][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.53:338][524]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.22-09.21.53:354][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.53:355][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.22-09.21.53:355][524]PIE: New page: PIE session: MainMenu (22 May 2018 11:21:53)
-[2018.05.22-09.21.53:355][524]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-09.21.53:355][524]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-09.21.53:355][524]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
-[2018.05.22-09.21.53:356][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000800s)
-[2018.05.22-09.21.53:357][524]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.22-09.21.53:357][524]LogPlayLevel: PIE: World Init took: (0.000778s)
-[2018.05.22-09.21.53:357][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002146s)
-[2018.05.22-09.21.53:375][524]LogTemp: Warning: Game Instance Init
-[2018.05.22-09.21.53:375][524]LogTemp: Warning: Found class WBP_MainMenu_C
-[2018.05.22-09.21.53:377][524]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-09.21.53:384][524]LogInit: FAudioDevice initialized.
-[2018.05.22-09.21.53:419][524]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.22-09.21.53:420][524]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.21.53
-[2018.05.22-09.21.53:421][524]LogWorld: Bringing up level for play took: 0.000641
-[2018.05.22-09.21.53:423][524]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu -0.322
-[2018.05.22-09.21.53:424][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.56:876][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.21.56:913][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.22.05:332][890]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.22-09.22.05:336][890]Candidate modules for hot reload:
-[2018.05.22-09.22.05:336][890]  PuzzlePlatformer
-[2018.05.22-09.22.05:336][890]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 524 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
-[2018.05.22-09.22.05:338][890]Warning: Starting HotReload took  0.0s.
-[2018.05.22-09.22.12:691][253]CompilerResultsLog: New page: Compilation - 22 May 2018 11:22:12
-[2018.05.22-09.22.12:692][253]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.22-09.22.12:692][253]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.22-09.22.12:692][253]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2018.05.22-09.22.12:692][253]CompilerResultsLog: PuzzlePlatformsGameInstance.cpp
-[2018.05.22-09.22.12:693][253]CompilerResultsLog: [2/3] Link UE4Editor-PuzzlePlatformer-524.dll
-[2018.05.22-09.22.12:693][253]CompilerResultsLog: [3/3] Link UE4Editor-PuzzlePlatformer-524.lib
-[2018.05.22-09.22.12:693][253]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.exp
-[2018.05.22-09.22.12:694][253]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-524.suppressed.exp
-[2018.05.22-09.22.12:694][253]CompilerResultsLog: Total build time: 7.13 seconds (Local executor: 6.53 seconds)
-[2018.05.22-09.22.12:694][253]LogMainFrame: MainFrame: Module compiling took 7.362 seconds
-[2018.05.22-09.22.12:756][253]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-09.22.12:756][253]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-09.22.12:758][253]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0006 seconds. Added 5 classes and 2 folders.
-[2018.05.22-09.22.12:760][253]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
-[2018.05.22-09.22.13:067][253]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2370 classes and 525 folders.
-[2018.05.22-09.22.13:071][253]Display: HotReload took  7.7s.
-[2018.05.22-09.22.15:167][379]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.22-09.22.15:184][379]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.22.15:185][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.22-09.22.15:186][379]PIE: New page: PIE session: MainMenu (22 May 2018 11:22:15)
-[2018.05.22-09.22.15:186][379]LogTemp: Warning: Game Instance Constructor
-[2018.05.22-09.22.15:186][379]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
-[2018.05.22-09.22.15:186][379]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenu
-[2018.05.22-09.22.15:187][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000875s)
-[2018.05.22-09.22.15:188][379]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.22-09.22.15:188][379]LogPlayLevel: PIE: World Init took: (0.000757s)
-[2018.05.22-09.22.15:188][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenu.MainMenu to /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu (0.002160s)
-[2018.05.22-09.22.15:225][379]LogTemp: Warning: Game Instance Init
-[2018.05.22-09.22.15:225][379]LogTemp: Warning: Found class WBP_MainMenu_C
-[2018.05.22-09.22.15:227][379]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.22-09.22.15:234][379]LogInit: FAudioDevice initialized.
-[2018.05.22-09.22.15:267][379]LogLoad: Game class is 'PuzzlePlatformerGameMode'
-[2018.05.22-09.22.15:269][379]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.05.22-10.22.15
-[2018.05.22-09.22.15:269][379]LogWorld: Bringing up level for play took: 0.000662
-[2018.05.22-09.22.15:272][379]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenu -0.473
-[2018.05.22-09.22.15:272][379]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.22.18:624][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.05.22-09.22.18:662][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/MenuSystems/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.05.22-17.33.27:326][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-17.33.27:326][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.22-17.33.27:338][  0]LogInit: Computer: WINDOWS8V1
+[2018.05.22-17.33.27:338][  0]LogInit: User: Aaron
+[2018.05.22-17.33.27:338][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.22-17.33.27:338][  0]LogInit: High frequency timer resolution =2.338341 MHz
+[2018.05.22-17.33.27:338][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.22-17.33.27:338][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.22-17.33.27:338][  0]LogMemory: Process Physical Memory: 272.25 MB used, 272.25 MB peak
+[2018.05.22-17.33.27:338][  0]LogMemory: Process Virtual Memory: 270.29 MB used, 270.29 MB peak
+[2018.05.22-17.33.27:338][  0]LogMemory: Physical Memory: 11149.14 MB used,  5123.11 MB free, 16272.25 MB total
+[2018.05.22-17.33.27:338][  0]LogMemory: Virtual Memory: 624.24 MB used,  5123.11 MB free, 134217728.00 MB total
+[2018.05.22-17.33.27:481][  0]LogInit: Using OS detected language (en-GB).
+[2018.05.22-17.33.27:481][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.22-17.33.27:486][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.05.22-17.33.27:976][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.22-17.33.28:436][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.22-17.33.28:470][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
+[2018.05.22-17.33.28:470][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.22-17.33.28:495][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 770M' (Feature Level 11_0)
+[2018.05.22-17.33.28:495][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.05.22-17.33.28:497][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.22-17.33.28:497][  0]LogD3D11RHI:       2976/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.22-17.33.28:497][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.22-17.33.28:504][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.22-17.33.28:504][  0]LogD3D11RHI:     GPU DeviceId: 0x11e0 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.22-17.33.28:504][  0]LogWindows: EnumDisplayDevices:
+[2018.05.22-17.33.28:504][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.05.22-17.33.28:504][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.22-17.33.28:504][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.22-17.33.28:505][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.22-17.33.28:505][  0]LogWindows:    4. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.22-17.33.28:505][  0]LogWindows:    5. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.22-17.33.28:505][  0]LogWindows:    6. 'NVIDIA GeForce GTX 770M' (P:0 D:0)
+[2018.05.22-17.33.28:505][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.05.22-17.33.28:505][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770M
+[2018.05.22-17.33.28:505][  0]LogD3D11RHI:   Driver Version: 375.95 (internal:21.21.13.7595, unified:375.95)
+[2018.05.22-17.33.28:505][  0]LogD3D11RHI:      Driver Date: 11-16-2016
+[2018.05.22-17.33.28:505][  0]LogRHI: Texture pool is 2083 MB (70% of 2976 MB)
+[2018.05.22-17.33.28:529][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.22-17.33.28:549][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.22-17.33.28:549][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Intermediate/Shaders/WorkingDirectory/6604/).
+[2018.05.22-17.33.28:550][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron/AppData/Local/Temp/UnrealShaderWorkingDir/DDCB86B649958F54ACAD6482520E2DC1/'.
+[2018.05.22-17.33.28:550][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.22-17.33.29:806][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.22-17.33.29:848][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.22-17.33.29:891][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.22-17.33.29:935][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.22-17.33.29:985][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.22-17.33.30:030][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.22-17.33.30:075][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.22-17.33.30:117][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.22-17.33.30:152][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.22-17.33.30:195][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.22-17.33.30:238][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.22-17.33.30:279][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.22-17.33.30:323][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.22-17.33.30:366][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.22-17.33.30:451][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.22-17.33.30:451][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.22-17.33.30:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.22-17.33.30:528][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.22-17.33.30:609][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.22-17.33.30:631][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.22-17.33.30:676][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.22-17.33.30:723][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.22-17.33.30:784][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.22-17.33.30:830][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.22-17.33.30:831][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.22-17.33.31:180][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.22-17.33.31:284][  0]LogDerivedDataCache: Loaded boot cache 0.10s 86MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.22-17.33.31:284][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.22-17.33.31:284][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.22-17.33.31:284][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.22-17.33.31:284][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.22-17.33.31:284][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.22-17.33.31:306][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.22-17.33.31:319][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.22-17.33.31:330][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.22-17.33.31:330][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.22-17.33.31:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-17.33.31:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-17.33.31:766][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-17.33.32:089][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.22-17.33.32:121][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.22-17.33.32:121][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.22-17.33.32:121][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.22-17.33.32:121][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.22-17.33.32:121][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.22-17.33.32:149][  0]LogNetVersion: PuzzlePlatformer , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2521452977)
+[2018.05.22-17.33.32:305][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2018.05.22-17.33.32:808][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.048566 seconds
+[2018.05.22-17.33.32:814][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.22-17.33.32:814][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.22-17.33.32:814][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.22-17.33.32:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.22-17.33.35:900][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.22-17.33.35:935][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.22-17.33.36:513][  0]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-17.33.36:553][  0]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-17.33.36:772][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.22-17.33.37:190][  0]SourceControl: Source control is disabled
+[2018.05.22-17.33.37:190][  0]SourceControl: Source control is disabled
+[2018.05.22-17.33.37:241][  0]SourceControl: Source control is disabled
+[2018.05.22-17.33.37:286][  0]SourceControl: Source control is disabled
+[2018.05.22-17.33.37:999][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.22-17.33.38:232][  0]LogOcInput: OculusInput pre-init called
+[2018.05.22-17.33.38:473][  0]LogEngine: Initializing Engine...
+[2018.05.22-17.33.38:478][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.05.22-17.33.38:786][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.22-17.33.38:786][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.22-17.33.38:909][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.22-17.33.38:919][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-17.33.38:928][  0]LogInit: FAudioDevice initialized.
+[2018.05.22-17.33.39:140][  0]LogDerivedDataCache: Saved boot cache 0.21s 86MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.22-17.33.39:159][  0]LogInit: Texture streaming: Enabled
+[2018.05.22-17.33.39:241][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.22-17.33.39:263][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={0E1A4132-499F-0F61-7EF8-9CB7BDF647F9}
+[2018.05.22-17.33.39:368][  0]LogInit: Transaction tracking system initialized
+[2018.05.22-17.33.39:611][  0]BlueprintLog: New page: Editor Load
+[2018.05.22-17.33.40:326][  0]LocalizationService: Localization service is disabled
+[2018.05.22-17.33.40:935][  0]LogConsoleResponse: Display: 
+[2018.05.22-17.33.41:104][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.22-17.33.41:104][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.22-17.33.41:104][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.22-17.33.42:106][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/' took 0.01s
+[2018.05.22-17.33.42:147][  0]SourceControl: Source control is disabled
+[2018.05.22-17.33.42:147][  0]Cmd: MAP LOAD FILE="../../../../../_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/MenuSystems/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-17.33.42:148][  0]LightingResults: New page: Lighting Build
+[2018.05.22-17.33.42:181][  0]MapCheck: New page: Map Check
+[2018.05.22-17.33.42:181][  0]LightingResults: New page: Lighting Build
+[2018.05.22-17.33.42:201][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2018.05.22-17.33.42:202][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-17.33.42:212][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-17.33.42:290][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.086ms to complete.
+[2018.05.22-17.33.42:290][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.143
+[2018.05.22-17.33.42:431][  0]LogCollectionManager: Loaded 0 collections in 0.000851 seconds
+[2018.05.22-17.33.42:521][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Saved/Collections/' took 0.01s
+[2018.05.22-17.33.42:521][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Developers/Aaron/Collections/' took 0.01s
+[2018.05.22-17.33.42:521][  0]LogFileCache: Scanning file cache for directory 'D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/Content/Collections/' took 0.01s
+[2018.05.22-17.33.42:522][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.22-17.33.42:531][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2370 classes and 522 folders.
+[2018.05.22-17.33.42:579][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.22-17.33.42:644][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.22-17.33.42:679][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.22-17.33.42:711][  0]LogSlate: Took 0.000624 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.22-17.33.42:715][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.22-17.33.42:725][  0]LogSlate: Took 0.000923 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.22-17.33.42:725][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.05.22-17.33.42:869][  0]LogRenderer: Reallocating scene render targets to support 1208x596 Format 10 NumSamples 1 (Frame:1).
+[2018.05.22-17.33.43:116][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.22-17.33.43:116][  0]LogLoad: (Engine Initialization) Total time: 18.42 seconds
+[2018.05.22-17.33.43:116][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.22-17.33.43:116][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.22-17.33.43:476][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.22-17.33.43:799][  1]LogAssetRegistry: Asset discovery search completed in 11.5161 seconds
+[2018.05.22-17.33.43:801][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.22-17.33.43:801][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000211 seconds (updated 0 objects)
+[2018.05.22-17.34.57:076][274]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-17.34.57:102][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.34.57:103][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-17.34.57:104][274]PIE: New page: PIE session: MainMenuLevel (22 May 2018 19:34:57)
+[2018.05.22-17.34.57:104][274]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-17.34.57:104][274]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-17.34.57:104][274]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenuLevel
+[2018.05.22-17.34.57:106][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001242s)
+[2018.05.22-17.34.57:107][274]LogAIModule: Creating AISystem for world MainMenuLevel
+[2018.05.22-17.34.57:107][274]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2018.05.22-17.34.57:108][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenuLevel.MainMenuLevel to /Game/MenuSystems/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.003143s)
+[2018.05.22-17.34.57:118][274]LogTemp: Warning: Game Instance Init
+[2018.05.22-17.34.57:118][274]LogTemp: Warning: Found class WBP_MainMenu_C
+[2018.05.22-17.34.57:122][274]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-17.34.57:127][274]LogInit: FAudioDevice initialized.
+[2018.05.22-17.34.57:171][274]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-17.34.57:173][274]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2018.05.22-18.34.57
+[2018.05.22-17.34.57:174][274]LogWorld: Bringing up level for play took: 0.001135
+[2018.05.22-17.34.57:213][274]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.05.22-17.34.57:342][274]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenuLevel -0.403
+[2018.05.22-17.34.57:343][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.34.58:740][329]LogTemp: Warning: I'm gonna host a server!
+[2018.05.22-17.35.00:840][455]LogTemp: Warning: I'm gonna host a server!
+[2018.05.22-17.35.01:791][505]LogGameMode: ProcessServerTravel: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.01:792][505]LogEngine: Server switch level: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.01:792][505]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.01:810][505]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.03:769][505]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.22-17.35.03:785][505]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-17.35.03:797][505]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.05.22-17.35.03:810][505]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.05.22-17.35.03:811][505]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.05.22-17.35.03:811][505]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.05.22-17.35.03:833][505]LogInit: WinSock: I am Windows8v1 (192.168.0.29:0)
+[2018.05.22-17.35.03:848][505]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.05.22-17.35.03:859][505]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2018.05.22-17.35.04:053][505]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.05.22-18.35.04
+[2018.05.22-17.35.04:125][505]LogWorld: Bringing up level for play took: 0.244793
+[2018.05.22-17.35.04:152][505]LogLoad: Took 2.341884 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap)
+[2018.05.22-17.35.06:730][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.35.06:810][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.35.06:841][641]LogExit: GameNetDriver None shut down
+[2018.05.22-17.35.23:579][752]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-17.35.23:595][752]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.35.23:596][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-17.35.23:596][752]PIE: New page: PIE session: MainMenuLevel (22 May 2018 19:35:23)
+[2018.05.22-17.35.23:596][752]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-17.35.23:596][752]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-17.35.23:596][752]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenuLevel
+[2018.05.22-17.35.23:597][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000883s)
+[2018.05.22-17.35.23:598][752]LogAIModule: Creating AISystem for world MainMenuLevel
+[2018.05.22-17.35.23:598][752]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2018.05.22-17.35.23:598][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenuLevel.MainMenuLevel to /Game/MenuSystems/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.002178s)
+[2018.05.22-17.35.23:608][752]LogTemp: Warning: Game Instance Init
+[2018.05.22-17.35.23:608][752]LogTemp: Warning: Found class WBP_MainMenu_C
+[2018.05.22-17.35.23:611][752]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-17.35.23:615][752]LogInit: FAudioDevice initialized.
+[2018.05.22-17.35.23:651][752]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-17.35.23:652][752]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2018.05.22-18.35.23
+[2018.05.22-17.35.23:652][752]LogWorld: Bringing up level for play took: 0.000735
+[2018.05.22-17.35.23:657][752]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenuLevel -0.088
+[2018.05.22-17.35.23:657][752]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.35.25:175][842]LogTemp: Warning: I'm gonna host a server!
+[2018.05.22-17.35.26:277][908]LogGameMode: ProcessServerTravel: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.26:278][908]LogEngine: Server switch level: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.26:278][908]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.26:278][908]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.35.26:369][908]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.22-17.35.26:370][908]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-17.35.26:370][908]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.05.22-17.35.26:370][908]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.05.22-17.35.26:370][908]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.05.22-17.35.26:371][908]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.05.22-17.35.26:371][908]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.05.22-17.35.26:371][908]LogNet: GameNetDriver IpNetDriver_1 IpNetDriver listening on port 7777
+[2018.05.22-17.35.26:374][908]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.05.22-18.35.26
+[2018.05.22-17.35.26:374][908]LogWorld: Bringing up level for play took: 0.002749
+[2018.05.22-17.35.26:376][908]LogLoad: Took 0.098063 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap)
+[2018.05.22-17.35.27:751][989]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.35.27:788][989]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.35.27:799][989]LogExit: GameNetDriver None shut down
+[2018.05.22-17.36.00:819][165]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.05.22-17.36.00:824][165]Candidate modules for hot reload:
+[2018.05.22-17.36.00:824][165]  PuzzlePlatformer
+[2018.05.22-17.36.00:824][165]Launching UnrealBuildTool... [D:/UT2016/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe PuzzlePlatformer -ModuleWithSuffix PuzzlePlatformer 6872 Win64 Development -editorrecompile -canskiplink "D:/_UnrealProjects/Puzzle_Platformer/PuzzlePlatformer/PuzzlePlatformer.uproject" ]
+[2018.05.22-17.36.00:826][165]Warning: Starting HotReload took  0.0s.
+[2018.05.22-17.36.04:050][220]CompilerResultsLog: New page: Compilation - 22 May 2018 19:36:04
+[2018.05.22-17.36.04:050][220]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.05.22-17.36.04:051][220]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.22-17.36.04:051][220]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.05.22-17.36.04:051][220]CompilerResultsLog: MainMenuSource.cpp
+[2018.05.22-17.36.04:051][220]CompilerResultsLog: [2/3] Link UE4Editor-PuzzlePlatformer-6872.dll
+[2018.05.22-17.36.04:051][220]CompilerResultsLog: [3/3] Link UE4Editor-PuzzlePlatformer-6872.lib
+[2018.05.22-17.36.04:051][220]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-6872.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-6872.exp
+[2018.05.22-17.36.04:052][220]CompilerResultsLog:    Creating library D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-6872.suppressed.lib and object D:\_UnrealProjects\Puzzle_Platformer\PuzzlePlatformer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatformer-6872.suppressed.exp
+[2018.05.22-17.36.04:053][220]CompilerResultsLog: Total build time: 2.84 seconds (Local executor: 2.22 seconds)
+[2018.05.22-17.36.04:053][220]LogMainFrame: MainFrame: Module compiling took 3.234 seconds
+[2018.05.22-17.36.04:130][220]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-17.36.04:130][220]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-17.36.04:132][220]LogContentBrowser: Native class hierarchy updated for 'PuzzlePlatformer' in 0.0012 seconds. Added 7 classes and 3 folders.
+[2018.05.22-17.36.04:135][220]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.05.22-17.36.04:234][220]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2372 classes and 526 folders.
+[2018.05.22-17.36.04:235][220]Display: HotReload took  3.4s.
+[2018.05.22-17.36.09:713][237]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.22-17.36.09:727][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.36.09:728][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.22-17.36.09:728][237]PIE: New page: PIE session: MainMenuLevel (22 May 2018 19:36:09)
+[2018.05.22-17.36.09:728][237]LogTemp: Warning: Game Instance Constructor
+[2018.05.22-17.36.09:728][237]LogTemp: Warning: Found class BP_MyPlatformTrigger_C
+[2018.05.22-17.36.09:728][237]LogPlayLevel: Creating play world package: /Game/MenuSystems/UEDPIE_0_MainMenuLevel
+[2018.05.22-17.36.09:730][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000899s)
+[2018.05.22-17.36.09:730][237]LogAIModule: Creating AISystem for world MainMenuLevel
+[2018.05.22-17.36.09:730][237]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2018.05.22-17.36.09:731][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuSystems/MainMenuLevel.MainMenuLevel to /Game/MenuSystems/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.002205s)
+[2018.05.22-17.36.09:740][237]LogTemp: Warning: Game Instance Init
+[2018.05.22-17.36.09:740][237]LogTemp: Warning: Found class WBP_MainMenu_C
+[2018.05.22-17.36.09:743][237]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-17.36.09:748][237]LogInit: FAudioDevice initialized.
+[2018.05.22-17.36.09:783][237]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-17.36.09:784][237]LogWorld: Bringing World /Game/MenuSystems/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 60) at 2018.05.22-18.36.09
+[2018.05.22-17.36.09:784][237]LogWorld: Bringing up level for play took: 0.000598
+[2018.05.22-17.36.09:787][237]PIE: Play in editor start time for /Game/MenuSystems/UEDPIE_0_MainMenuLevel 0.042
+[2018.05.22-17.36.09:788][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.36.10:722][293]LogGameMode: ProcessServerTravel: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.36.10:722][293]LogTemp: Warning: I'm gonna host a server!
+[2018.05.22-17.36.10:723][293]LogEngine: Server switch level: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.36.10:723][293]LogNet: Browse: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.36.10:723][293]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?listen
+[2018.05.22-17.36.10:831][293]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.22-17.36.10:832][293]LogLoad: Game class is 'PuzzlePlatformerGameMode'
+[2018.05.22-17.36.10:832][293]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.05.22-17.36.10:832][293]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.05.22-17.36.10:832][293]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.05.22-17.36.10:832][293]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.05.22-17.36.10:833][293]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.05.22-17.36.10:833][293]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2018.05.22-17.36.10:838][293]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.05.22-18.36.10
+[2018.05.22-17.36.10:838][293]LogWorld: Bringing up level for play took: 0.004261
+[2018.05.22-17.36.10:841][293]LogLoad: Took 0.116663 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap)
+[2018.05.22-17.36.14:056][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.36.14:089][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/MenuSystems/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/MenuSystems/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2018.05.22-17.36.14:100][483]LogExit: GameNetDriver None shut down

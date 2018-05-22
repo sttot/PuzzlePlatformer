@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PuzzlePlatformer.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{5AEDE359-BE30-4AAF-9BCD-CED3154181CD}</UniqueIdentifier>
+			<UniqueIdentifier>{684CE86C-2490-4686-952E-6F1F0F4645C5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PuzzlePlatformer.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{1E1243CF-5DD0-4ADF-8E12-EF309BE64F9B}</UniqueIdentifier>
+			<UniqueIdentifier>{678EA91F-E341-4143-91B6-184F7907D5A5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PuzzlePlatformer">
-			<UniqueIdentifier>{F10C06AB-CBC8-4F07-BAD5-6549AD071668}</UniqueIdentifier>
+			<UniqueIdentifier>{1984BC75-135A-4343-9611-64D4082529F6}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PuzzlePlatformer\MovingPlatform.cpp">
 			<Filter>Source\PuzzlePlatformer</Filter>
@@ -71,6 +71,21 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\PuzzlePlatformer\PuzzlePlatformsGameInstance.h">
 			<Filter>Source\PuzzlePlatformer</Filter>
+		</ClInclude >
+		<Filter Include="Source\PuzzlePlatformer\MenuSystems">
+			<UniqueIdentifier>{3CE163ED-EB75-4748-BCAA-0A1DD0B1CE3E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\PuzzlePlatformer\MenuSystems\MainMenuSource.cpp">
+			<Filter>Source\PuzzlePlatformer\MenuSystems</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PuzzlePlatformer\MenuSystems\MainMenuSource.h">
+			<Filter>Source\PuzzlePlatformer\MenuSystems</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PuzzlePlatformer\MenuSystems\MenuInterface.cpp">
+			<Filter>Source\PuzzlePlatformer\MenuSystems</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PuzzlePlatformer\MenuSystems\MenuInterface.h">
+			<Filter>Source\PuzzlePlatformer\MenuSystems</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>

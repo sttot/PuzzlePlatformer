@@ -7,6 +7,7 @@
 
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
 #include "PlatformTrigger.h"
+#include "MenuSystems/MainMenuSource.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 // Will always be called even if the game is not being played
@@ -49,7 +50,7 @@ void UPuzzlePlatformsGameInstance::LoadMenu()
 {
 	if ( !ensure( MenuClass != nullptr ) ) return;
 
-	UUserWidget* m_pcMenu = CreateWidget<UUserWidget>( this, MenuClass );
+	UMainMenuSource* m_pcMenu = CreateWidget<UMainMenuSource>( this, MenuClass );
 
 	// Add userwidget to viewport
 	m_pcMenu->AddToViewport();
@@ -72,6 +73,8 @@ void UPuzzlePlatformsGameInstance::LoadMenu()
 
 	// Enable mouse cursor to be shown
 	pcPlayerController->bShowMouseCursor = true;
+
+	m_pcMenu->SetMenuInterface( this );
 }
 
 ////////////////////////////////////////////////
